@@ -1,0 +1,95 @@
+footer{
+    background-color: rgba(24,24,24);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+.navigations{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.nav-first h1{
+    font-size: large;
+    font-weight: 700;
+}
+
+.nav-first a{
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+    color: rgb(187, 185, 185);
+    text-decoration: none;
+}
+
+.nav-first a:hover{
+    color: rgb(212, 211, 211);
+}
+
+.hr{
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.apps{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+.last{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.social{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.country{
+    width: 15%;
+}
+
+.chosen a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.6rem;
+    border: 1px solid gray;
+    padding: 4%;
+    color: white;
+    text-decoration: none;
+}
+
+.chosen a:hover{
+    border: 2px solid white;
+}
+
+.chosen a img{
+    border-radius: 100px;
+}
+
+.copyright{
+    text-align: end;
+    color: gray;
+    font-size: 0.8rem;
+}

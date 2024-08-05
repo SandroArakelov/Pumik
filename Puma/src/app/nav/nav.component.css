@@ -1,0 +1,59 @@
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.ad-free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    background-color: rgba(138,115,80);
+    color: white;
+    white-space: 10%;
+}
+
+.ad-free a{
+    color: white;
+}
+
+.nav-main{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-links{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-weight: 700;
+    padding-left: 10%;
+}
+
+.navigation-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.search-account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    padding-right: 5%;
+}
+
+.search-button{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    border: 1px solid gray;
+}
+
+.search-button:hover{
+    border: 2px solid white;
+}

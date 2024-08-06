@@ -136,6 +136,7 @@
     height:2.5rem;
     z-index: 1;
     width: 13rem;
+    cursor: pointer;
 }
 
 .Men_Women{
@@ -275,6 +276,7 @@
     color: white;
     height: 2.5rem;
     width: 8rem;
+    cursor: pointer;
 }
 
 .cash_button{
@@ -308,6 +310,7 @@
     position: relative;
     display: inline-block;
     margin-top: 2rem;
+    margin-bottom: -5px;
 }
 
 .sport_text{
@@ -339,6 +342,7 @@
     letter-spacing: 2px;
     padding: 2%;
     display: inline;
+    cursor: pointer;
 }
 
 .sport_text h4{
@@ -359,15 +363,20 @@
 }
 
 /* REG */
-.get_discount{
-    position: fixed;
-    bottom: 0;
-    padding-bottom:2%;
-    padding-left: 2%;
+
+.discount_sticky {
+    height: 3600px;
+    width: 150px;
+    position: absolute;
+}
+.get_discount {
+    position: sticky;
+    top: 850px;
+    padding-bottom: 2%;
+    padding-left: 25%;
     z-index: 100;
 }
-
-.get_discount button{
+.get_discount button {
     width: 10rem;
     height: 3rem;
     background-color: white;

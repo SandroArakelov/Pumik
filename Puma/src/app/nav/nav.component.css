@@ -22,16 +22,19 @@ nav{
     display: flex;
     height: 75px;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+}
+
+.pzdc{
+    z-index: 10;
 }
 
 .navigation-links{
     display: flex;
-    justify-content: space-between;
-    width: 40%;
+    justify-content: space-around;
+    padding: 0;
+    width: 70%;
     font-weight: 700;
-    padding-left: 10%;
 }
 
 .navigation-links a{
@@ -41,6 +44,7 @@ nav{
 
 .search-account{
     display: flex;
+    gap: 2rem;
     align-items: center;
     justify-content: space-between;
     width: 15%;

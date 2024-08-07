@@ -1,0 +1,196 @@
+.sale{
+    background-color: rgba(246, 141, 40);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;
+}
+
+.exclusive p{
+    margin: 0;
+}
+
+.off h3{
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.exclusive{
+    text-decoration: underline;
+}
+
+.build_img img{
+    width: 100%;
+}
+
+.all{
+    position: absolute;
+    top: 22rem;
+    padding-left:3rem ;
+    color: white;
+}
+
+.your_wardrobe_p{
+    font-size: 1.3rem;
+}
+
+.your_wardrobe_btn button{
+    border: none;
+    height: 2.5rem;
+    padding-left:1rem;
+    padding-right: 1rem;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.arrival{
+    padding-left: 2rem;
+}
+
+.carousel-container {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    min-width: calc(100% / 4); /* Adjust based on the number of visible slides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .carousel-content {
+    width: 95%;
+  }
+  
+  .carousel-content img {
+    width: 100%;
+
+    object-fit: cover;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+  }
+  
+  .carousel-control.prev {
+    margin-right: 95%;
+    border-radius: 50%;
+  }
+  
+  .carousel-control.next {
+    margin-left: 95%;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .carousel-indicators span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators .active {
+    background: #333;
+  }
+  
+  .categorty_h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category_imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .category_imgs img{
+    width: 42rem;
+  }
+
+  .grl_contain{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .images{
+    position: relative;
+  }
+
+  .images img{
+    width: 20.8rem;
+  }
+
+  .grl_txt{
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+    color: white;
+  }
+
+  .per_txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sport_performance{
+    padding-top: 1rem;
+  }
+
+  .sport_performance_imges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .sport_txt{
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+    color: white;
+  }
+
+  .fit_images_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }

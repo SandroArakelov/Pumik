@@ -1,0 +1,189 @@
+<div class="sale">
+    <div class="off">
+    <h3>UP TO 60% OFF - PRIVATE SALE</h3>
+</div>
+
+    <div class="exclusive">
+        <p>SHOP NOW EXCLUSIONS APPLY</p>
+    </div>
+</div>
+
+<div class="build">
+    <div class="all">
+    <div class="your_wardrobe_h1">
+        <h1>BUILD YOUR WARDROBE</h1>
+    </div>
+
+    <div class="your_wardrobe_p">
+        <p>THE LATEST AND GRATEST</p>
+    </div>
+
+    <div class="your_wardrobe_btn">
+        <button>SHOP BEST SELLERS</button>
+    </div>
+</div>
+    <div class="build_img">
+        <img src="assets\962f23b4d38e069efcb7a0fab78ee94eeb788c98-2000x694.webp" alt="">
+    </div>
+</div>
+
+<div class="arrival">
+    <h2>WOMEN'S NEW ARRIVALS</h2>
+</div>
+
+<div class="carousel-container">
+    <button class="carousel-control prev" (click)="prev()">‹</button>
+    <div class="carousel" [style.transform]="'translateX(' + (-currentSlide * 100 / visibleSlides) + '%)'">
+      <div class="carousel-item" *ngFor="let item of item">
+        <div class="carousel-content">
+          <img [src]="item.src" alt="Carousel image">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control next" (click)="next()">›</button>
+    <div class="carousel-indicators">
+      <span *ngFor="let item of item; let i = index" 
+            [class.active]="i === currentSlide" 
+            (click)="goToSlide(i)">
+      </span>
+    </div>
+  </div>
+
+  <div class="shop_by_category">
+    <div class="categorty_h1">
+        <h1>SHOP BY CATEGORY</h1>
+    </div>    
+
+    <div class="category_imgs">
+        <div class="imgs">
+            <img src="\assets\aaf767d9c876a44dc1eaa152d4e9c147bc0fda67-2000x2000.jpg" alt="">
+        </div>
+
+        <div class="imgs">
+            <img src="\assets\0c3e46604e293ac55950eb7c88fe92e7f6c4ae7f-2000x2000.jpg" alt="">
+        </div>
+    </div>
+  </div>
+
+  <div class="grl_contain">
+    <div class="images">
+        <img src="assets\cec2daf583985f3eb18ce029c9e97b57ae96618c-2000x2000.jpg" alt="">
+        <div class="grl_txt">
+            <h2>SHIRTS</h2>
+        </div>
+    </div>
+
+    <div class="images">
+        <img src="assets\ba319c2f878a114dce396adcaf34dbdaa6824950-2000x2000.jpg" alt="">
+        <div class="grl_txt">
+            <h2>MATCHING SETS</h2>
+        </div>
+    </div>
+
+    <div class="images">
+        <img src="assets\cac1d354c05537776ef8e3d555bd15b50e5ab0d8-2000x2000.jpg" alt="">
+        <div class="grl_txt">
+            <h2>SHORTS</h2>
+        </div>
+    </div>
+
+    <div class="images">
+        <img src="assets\190f6929bee7ba53ea7b0a79170fcd94a4d80292-2000x2000.jpg" alt="">
+        <div class="grl_txt">
+            <h2>DRESSES + SKIRTS</h2>
+        </div>
+    </div>
+  </div>
+
+  <!--  -->
+
+  <div class="sport_performance">
+    <div class="per_txt">
+        <h1>SHOP BY PERFORMANCE</h1>
+    </div>
+
+    <div class="sport_performance_imges">
+        <div class="images">
+            <img src="assets\cc78bd986675b659c960474a152c4689d1f468a4-1536x1536.jpg" alt="">
+        <div class="sport_txt">
+            <h2>RUNNING</h2>
+        </div>
+    </div>
+
+        <div class="images">
+            <img src="assets\81a81d869e5648fdb755210d84863372c7353dd4-2000x2000.jpg" alt="">
+        <div class="sport_txt">
+            <h2>SOCCER</h2>
+        </div>
+    </div>
+
+        <div class="images">
+            <img src="assets\db9b163b7a71788bc7d840bcf819ac7e04c1aac7-1536x1536.jpg" alt="">
+        <div class="sport_txt">
+            <h2>BASKETBALL</h2>
+        </div>
+    </div>
+
+        <div class="images">
+            <img src="assets\ff82958e26a1f15b8ca548a62aea8d8cdba3f14a-1536x1536.jpg" alt="">
+        <div class="sport_txt">
+            <h2>TRAINING</h2>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="womans_fit">
+    <div class="fit_txt">
+        <h2>WOMEN'S FITS</h2>
+    </div>
+
+    <div class="fit_images_list">
+        <div class="grl_img_fit">
+            <img src="assets\image.png" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="assets\image (1).png" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="assets\image (2).png" alt="">
+        </div>
+        <!-- <div class="grl_img_fit">
+            <img src="" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="" alt="">
+        </div>
+
+        <div class="grl_img_fit">
+            <img src="" alt="">
+        </div> -->
+    </div>
+</div>

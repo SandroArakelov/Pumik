@@ -1,0 +1,89 @@
+<div class="Myaccount">
+    <h1>My account</h1>
+</div>
+
+<div class="acc">
+    <div class="log_reg">
+        <div class="log" (click)="LogClick()">
+        <h3>Login</h3>
+    </div>
+
+    <div class="reg" (click)="RegClick()">
+        <h3>Create account</h3>
+    </div>
+</div>
+
+<!-- log -->
+ <div class="inp"  *ngIf="Logvisible">
+    <div class="email"> 
+        <label>EMAIL<span>*</span></label>
+        <input type="email" placeholder="Email">
+    </div>
+
+        <div class="password">
+            <label>Password<span>*</span></label>
+            <input type="password" placeholder="Password">
+        </div>
+
+
+    <div class="check">
+        <label  class="checkbox-container">
+            <span class="remember">Remember me on this computer</span>
+            <input class="custom-checkbox" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+    </div>
+    <div class="logbtn_container">
+        <button class="Loginbtn"><span>LOGIN</span></button>
+    </div>
+
+    <div class="logrule">
+        <p>By continuing, I confirm that I have read and accept the <span>Terms and Conditions.</span> and the <span>Privacy Policy.</span></p>
+    </div>
+
+    <div class="forgotpass">
+        <h5>FORGOTTEN YOUR PASSWORD?</h5>
+    </div>
+</div>
+</div>
+<!-- log -->
+
+<!-- reg -->
+ <div class="regac" *ngIf="Regvisible">
+    <div class="inputik"> 
+        <label>FIRST NAME<span>*</span></label>
+        <input type="text" placeholder="First Name">
+    </div>
+
+    <div class="inputik"> 
+        <label>LAST NAME<span>*</span></label>
+        <input type="text" placeholder="Last Name">
+    </div>
+
+    <div class="inputik"> 
+        <label>EMAIL<span>*</span></label>
+        <input type="email" placeholder="Email">
+    </div>
+
+    <div class="inputik"> 
+        <label>PASSWORD<span>*</span></label>
+        <input type="password" placeholder="Password">
+    </div>
+
+     <div class="regcheck">
+    <label  class="checkbox-container">
+        <span class="remember">Add me to the PUMA mailing list</span>
+        <input class="custom-checkbox" type="checkbox">
+        <span class="checkmark"></span>
+    </label>
+ </div>
+
+ <div class="logrule">
+    <p>By continuing, I confirm that I have read and accept the <span>Terms and Conditions.</span> and the <span>Privacy Policy.</span></p>
+</div>
+
+<div class="Reg_container">
+    <button class="registerbtn"><span>REGISTER</span></button>
+</div>
+ </div>
+<!-- reg -->

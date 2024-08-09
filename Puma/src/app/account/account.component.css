@@ -1,0 +1,183 @@
+.Myaccount{
+    margin-left: 20%;
+    font-size: 1.1rem;
+}
+
+.acc{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.log, .reg{
+    cursor: pointer;
+}
+
+.log_reg{
+    display: flex;
+    gap: 4rem;
+}
+
+.email span, .pass span{
+    color: red;
+}
+
+.email, .password{
+    display: flex;
+    flex-direction: column;
+}
+
+.email input, .password input{
+    width: 28rem;
+    height: 2.5rem;
+}
+
+.check{
+    padding-top: 1rem;
+}
+
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+  }
+  
+  .custom-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .remember span{
+    color: black;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+  .custom-checkbox:checked ~ .checkmark {
+    background-color: #000000;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-checkbox:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .custom-checkbox:checked ~ .checkmark:after {
+    animation: checkAnim 0.2s forwards;
+  }
+  
+  .logbtn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    width: 28rem;
+  }
+
+  .Loginbtn{
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(189, 193, 197);
+    border: none;
+  }
+
+  .Loginbtn span{
+    color: rgb(49, 49, 49);
+    font-weight: 700;
+  }
+
+  .logrule{
+    width: 29rem;
+    font-size: 0.8rem;
+  }
+
+  .logrule span{
+    text-decoration: underline;
+    text-decoration-color:gray ;
+  }
+
+  .forgotpass h5{
+    font-size: 0.8rem;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: gray;
+  }
+
+  .forgotpass :hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+.inputik span{
+    color: red;
+}
+
+.inputik{
+    display: flex;
+    flex-direction: column;
+}
+
+.regac{
+    display: flex;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputik input{
+    width: 28rem;
+    height: 2.5rem;
+}
+
+.Reg_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28rem;
+  }
+
+  .registerbtn{
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(189, 193, 197);
+    border: none;
+  }
+
+  .registerbtn span{
+    color: rgb(49, 49, 49);
+    font-weight: 700;
+  }

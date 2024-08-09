@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { WomanComponent } from './woman/woman.component';
 import { AccountComponent } from './account/account.component';
+import { BackToSchoolComponent } from './back-to-school/back-to-school.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AccountComponent } from './account/account.component';
     NavComponent,
     FooterComponent,
     WomanComponent,
-    AccountComponent
+    AccountComponent,
+    BackToSchoolComponent
   ],
   imports: [
     BrowserModule,

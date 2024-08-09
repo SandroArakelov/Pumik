@@ -1,0 +1,190 @@
+.sale{
+    background-color: rgba(246, 141, 40);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;
+}
+
+.exclusive p{
+    margin: 0;
+}
+
+.off h3{
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.exclusive{
+    text-decoration: underline;
+}
+
+.best_dresses{
+    margin-bottom: 5%;
+}
+
+.dressed_text{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    text-align: end;
+    width: 30%;
+}
+
+.dressed_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dressed_buttons a{
+    background-color: rgb(24, 24, 24);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container {
+    margin: auto;
+    margin-bottom: 5%;
+    background-color: white;
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    min-width: calc(100% / 4); /* Adjust based on the number of visible slides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .carousel-content {
+    width: 95%;
+  }
+  
+  .carousel-content img {
+    width: 100%;
+
+    object-fit: cover;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+  }
+  
+  .carousel-control.prev {
+    margin-right: 95%;
+    border-radius: 50%;
+  }
+  
+  .carousel-control.next {
+    margin-left: 95%;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .carousel-indicators span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+.carousel-indicators .active {
+    background: #333;
+}
+
+.best_foot_forward{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.best_foot_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.best_foot_container a{
+    background-color: #1d1d1d;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.best_foot_container a:hover{
+    background-color: #333;
+}
+
+.back_to_school_deals{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.school_deals_photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.school_deals_photos a{
+    background-color: #1d1d1d;
+    text-decoration: none;
+    width: 50%;
+    font-weight: bold;
+    color: white;
+}
+
+.school_deals_photos a:hover{
+    background-color: #333;
+}
+
+.class_over{
+    position: absolute;
+    top: 465%;
+    left: 75%;
+    text-align: end;
+    font-weight: bold;
+}
+
+.class_over a{
+    text-decoration: none;
+    color: white;
+    background-color: #1d1d1d;
+    width: 50%;
+}

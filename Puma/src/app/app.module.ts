@@ -8,11 +8,9 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { WomanComponent } from './woman/woman.component';
 import { AccountComponent } from './account/account.component';
-<<<<<<< Updated upstream
 import { BackToSchoolComponent } from './back-to-school/back-to-school.component';
-=======
 import { MenComponent } from './men/men.component';
->>>>>>> Stashed changes
+
 
 @NgModule({
   declarations: [
@@ -22,11 +20,8 @@ import { MenComponent } from './men/men.component';
     FooterComponent,
     WomanComponent,
     AccountComponent,
-<<<<<<< Updated upstream
-    BackToSchoolComponent
-=======
+    BackToSchoolComponent,
     MenComponent
->>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,

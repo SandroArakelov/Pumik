@@ -3,11 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { WomanComponent } from './woman/woman.component';
 import { AccountComponent } from './account/account.component';
-<<<<<<< Updated upstream
 import { BackToSchoolComponent } from './back-to-school/back-to-school.component';
-=======
 import { MenComponent } from './men/men.component';
->>>>>>> Stashed changes
+
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},

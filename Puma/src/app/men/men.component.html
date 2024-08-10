@@ -1,0 +1,131 @@
+<div class="sale">
+    <div class="off">
+    <h3>UP TO 60% OFF - PRIVATE SALE</h3>
+</div>
+
+    <div class="exclusive">
+        <p>SHOP NOW EXCLUSIONS APPLY</p>
+    </div>
+</div>
+
+<div class="menwardrobe">
+
+    <div class="build">
+        <div class="My_wardrobe_h1">
+            <h1>BUILD YOUR WADROBE</h1>
+        </div>
+
+        <div class="My_wardrobe_p">
+            <p>THE LATEST AND GREATEST</p>
+        </div>
+
+        <div class="My_wardrobe_btn">
+            <button><span>SHOP BEST SELLERS</span></button>
+        </div>
+    </div>
+
+    <div class="men_ward_img">
+        <img src="assets\ce009ff0c9129a8c93978b3f91944c51c6900a95-2000x694.webp" alt="">
+    </div>
+</div>
+
+<div class="men_arr">
+    <h2>MEN'S NEW ARRIVALS</h2>
+</div>
+
+<div class="carousel-container">
+    <button class="carousel-control prev" (click)="prev()">‹</button>
+    <div class="carousel" [style.transform]="'translateX(' + (-currentSlide * 100 / visibleSlides) + '%)'">
+      <div class="carousel-item" *ngFor="let item of item">
+        <div class="carousel-content">
+          <img [src]="item.src" alt="Carousel image">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control next" (click)="next()">›</button>
+  </div>
+
+  <div class="by_category">
+    <h1>SHOP BY CATEGORY</h1>
+
+    <div class="nigger">
+    <div class="ng_piska">
+        <img src="assets\c1017b20c384771ccf6b8e05d045b19f30b07a3e-2000x2000.jpg" alt="">
+        <div class="nigga_txt">
+            <h1>CLOTHING</h1>
+        </div>
+    </div>
+
+    <div class="ng_piska">
+        <img src="assets\ef1684f6551746b09b26ede7021c51ba6ec9304b-2000x2000.jpg" alt="">
+        <div class="nigga_txt">
+            <h1>SHOES</h1>
+        </div>
+    </div>
+</div>
+  </div>
+
+
+  <div class="men_flex">
+    <div class="men_imgs">
+        <img src="assets\e12043eec0609426d9334af0a7f4e3c4745cc7da-2000x2000.jpg" alt="">
+        <div class="men_txt">
+            <h2>SHIRTS</h2>
+        </div>
+    </div>
+
+    <div class="men_imgs">
+        <img src="assets\e7ceb6af3a79e0d19cd1f79add4e0dbf6f231a81-2000x2000.jpg" alt="">
+        <div class="men_txt">
+            <h2>MATCHING SETS</h2>
+        </div>
+    </div>
+
+    <div class="men_imgs">
+        <img src="assets\1d609a74d0fbefb7f79528eabf0066fc1a89a722-2000x2000.jpg" alt="">
+        <div class="men_txt">
+            <h2>SHORTS</h2>
+        </div>
+    </div>
+
+    <div class="men_imgs">
+        <img src="assets\bcdf2c87d35f3481ba77e11c8edd30ec4b0d592f-2000x2000.jpg" alt="">
+        <div class="men_txt">
+            <h2>ACCESSORIES</h2>
+        </div>
+    </div>
+  </div>
+
+  <div class="perfor_head">
+    <h1>SHOP BY PERFORMANCE</h1>
+  </div>
+
+  <div class="peroformance">
+    <div class="prfor_imgs">
+        <img src="assets\bea1765a5741c487955ec2570d62493018c29849-1536x1536.jpg" alt="">
+        <div class="perfor_txt">
+            <h2>RUNNIING</h2>
+        </div>  
+    </div>
+
+    <div class="prfor_imgs">
+        <img src="assets\9fc7b0908e39cba62896d448d8e762847d6f9251-2000x2000.jpg" alt="">
+        <div class="perfor_txt">
+            <h2>SOCCER</h2>
+        </div>  
+    </div>
+
+    <div class="prfor_imgs">
+        <img src="assets\f50d3c3bfd4ccf68401163d5aa98dfebaa069a1d-4608x4608.png" alt="">
+        <div class="perfor_txt">
+            <h2>BASKETBALL</h2>
+        </div>  
+    </div>
+
+    <div class="prfor_imgs">
+        <img src="assets\f837e1b754d68a3180d5b60386da393b53aaee5c-1536x1536.jpg" alt="">
+        <div class="perfor_txt">
+            <h2>TRAINING</h2>
+        </div>  
+    </div>
+  </div>

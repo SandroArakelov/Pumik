@@ -7,8 +7,33 @@ import { flatMap } from 'rxjs';
   styleUrls: ['./account.component.css']
 })
 export class AccountComponent {
-  Logvisible = true
-  Regvisible = false
+  Logvisible = false
+  Regvisible = true
+  RegError = false
+  // regusers: any[] = []
+  // regValid: any = {
+  //   email: '',
+  //   password: ''
+  // }
+
+  // register(){
+  //   if(this.regValid.email.includes('@') && this.regValid.password > 8){
+  //     this.regusers.push(this.regValid)
+  //     localStorage.setItem('RegistrationUser', JSON.stringify(this.regusers))
+  //     this.regValid = {
+  //       FirstName: '',
+  //       LastName: '',
+  //       email: '',
+  //       password: ''
+  //     }
+  //     this.Regvisible = !this.Regvisible
+  //     this.Logvisible = !this.Logvisible
+  //   }
+  //   else{
+  //     this.RegError = !this.RegError
+  //     console.log('error')
+  //   }
+  // }
 
   RegClick(){
     this.Logvisible = !this.Logvisible
@@ -19,4 +44,6 @@ export class AccountComponent {
     this.Regvisible = !this.Regvisible
     this.Logvisible = !this.Logvisible
   }
+
+
 }

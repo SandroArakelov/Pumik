@@ -1,0 +1,194 @@
+.sale{
+    background-color: rgba(246, 141, 40);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;
+}
+
+.exclusive p{
+    margin: 0;
+}
+
+.off h3{
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.exclusive{
+    text-decoration: underline;
+}
+
+.men_ward_img img{
+    width: 100%;
+}
+
+.build{
+    position: absolute;
+    left: 65%;
+    top: 22rem;
+    text-align: end;
+}
+
+.My_wardrobe_h1{
+    font-size: 1.1rem;
+}
+
+.My_wardrobe_p{
+    font-size: 1.3rem;
+}
+
+.My_wardrobe_btn button{
+    background-color: black;
+    border: none;
+    color: white;
+    height: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.men_arr{
+    padding-left: 2rem;
+}
+
+.carousel-container {
+    background-color: white;
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    min-width: calc(100% / 4); /* Adjust based on the number of visible slides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .carousel-content {
+    width: 95%;
+  }
+  
+  .carousel-content img {
+    width: 100%;
+
+    object-fit: cover;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+  }
+  
+  .carousel-control.prev {
+    margin-right: 95%;
+    border-radius: 50%;
+  }
+  
+  .carousel-control.next {
+    margin-left: 95%;
+    border-radius: 50%;
+  }
+
+  .by_category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nigger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .ng_piska{
+    position: relative;
+  }
+
+  .ng_piska img{
+    width: 42rem;
+  }
+
+  .nigga_txt{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    color: white;
+    padding-left: 1rem;
+  }
+
+  .men_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+  }
+
+  .men_imgs{
+    position: relative;
+  }
+
+  .men_imgs img{
+    width: 20.5rem;
+  }
+
+  .men_txt{
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+    color: white;
+  }
+
+  .perfor_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .peroformance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+
+  .prfor_imgs{
+    position: relative;
+  }
+
+  .prfor_imgs img{
+    width: 20.5rem;
+  }
+
+  .perfor_txt{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+  }

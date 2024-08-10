@@ -49,41 +49,52 @@
 <!-- log -->
 
 <!-- reg -->
- <div class="regac" *ngIf="Regvisible">
-    <div class="inputik"> 
-        <label>FIRST NAME<span>*</span></label>
+ <div class="reg" *ngIf="Regvisible">
+
+    <div class="reg_inp">
+        <label>First Name<span>*</span></label>
         <input type="text" placeholder="First Name">
     </div>
 
-    <div class="inputik"> 
-        <label>LAST NAME<span>*</span></label>
+    <div class="reg_inp">
+        <label>Last Name<span>*</span></label>
         <input type="text" placeholder="Last Name">
     </div>
 
-    <div class="inputik"> 
-        <label>EMAIL<span>*</span></label>
+    <div class="reg_inp">
+        <label>Email<span>*</span></label>
         <input type="email" placeholder="Email">
+        <div class="Reg_error" *ngIf="RegError">
+            <img src="assets\warning.png" alt="">
+            <p>You need to have a valid email.</p>
+        </div>
     </div>
 
-    <div class="inputik"> 
-        <label>PASSWORD<span>*</span></label>
+    <div class="reg_inp">
+        <label>Password<span>*</span></label>
         <input type="password" placeholder="Password">
+        <div class="Reg_error" *ngIf="RegError">
+            <img src="assets\warning.png" alt="">
+            <p>Your password must contain at least 8 characters</p>
+        </div>
     </div>
 
-     <div class="regcheck">
-    <label  class="checkbox-container">
-        <span class="remember">Add me to the PUMA mailing list</span>
-        <input class="custom-checkbox" type="checkbox">
-        <span class="checkmark"></span>
-    </label>
- </div>
+    <div class="start">
+    <div class="check">
+        <label  class="checkbox-container">
+            <span class="remember">Remember me on this computer</span>
+            <input class="custom-checkbox" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+    </div>
+    
+    <div class="logrule">
+        <p>By continuing, I confirm that I have read and accept the Terms and Conditions. and the Privacy Policy.</p>
+    </div>
 
- <div class="logrule">
-    <p>By continuing, I confirm that I have read and accept the <span>Terms and Conditions.</span> and the <span>Privacy Policy.</span></p>
-</div>
-
-<div class="Reg_container">
-    <button class="registerbtn"><span>REGISTER</span></button>
+    <div class="logbtn_container" (click)="register()">
+        <button class="Loginbtn"><span>REGISTER</span></button>
+    </div>
 </div>
  </div>
 <!-- reg -->

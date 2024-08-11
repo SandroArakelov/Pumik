@@ -4,6 +4,23 @@ nav{
     z-index: 1;
 }
 
+/*  */
+    .social{
+        display: none;
+    }
+
+    .nav_menu{
+        display: none;
+    }
+
+    .open, .close{
+        display: none;
+    }
+
+    #hamburger_navmenu{
+        display: none;
+    }
+/*  */
 .pzdc{
     z-index: 10;
 }
@@ -41,6 +58,11 @@ nav{
     font-weight: 700;
 }
 
+.nav_links{
+    display: flex;
+    gap: 1rem;
+}
+
 .navigation-links a{
     color: white;
     text-decoration: none;
@@ -53,9 +75,10 @@ nav{
     justify-content: space-between;
     width: 15%;
     padding-right: 5%;
+    
 }
 
-.search-button{
+.search_btn{
     background-color: transparent;
     color: white;
     display: flex;
@@ -68,6 +91,88 @@ nav{
     font-weight: 700;
 }
 
-.search-button:hover{
+.search_btn:hover{
     border: 2px solid white;
+}
+
+@media (max-width: 576px){
+
+    .nav-main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav_links a{
+        display: none;
+    }
+
+    .search-account{
+        display: none;
+    }
+
+    .social{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .hamburger_menu{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .nav_menu{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        row-gap: 1rem;
+        transition: 0.5s;
+        }
+
+    .nav_menu a{
+        color: black;
+        display: flex;
+        text-align: start;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_menu hr{
+        width: 50%;
+        padding: 0;
+    }
+
+    .open, .close{
+        display: block;
+        z-index: 11;
+    }
+
+    .open{
+        display: flex;
+        align-items: center;
+    }
+
+    .open span{
+        color: white;
+        font-size: 0.5rem;
+        font-weight: 100;
+    }
+
+    .open img{
+        width: 1.3rem;
+    }
+
+    .close{
+        padding: 1rem;
+    }
+
+    #hamburger_navmenu:checked ~ .nav_menu{
+        right: 0;
+    }
 }

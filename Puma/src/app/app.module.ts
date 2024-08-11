@@ -10,6 +10,7 @@ import { WomanComponent } from './woman/woman.component';
 import { AccountComponent } from './account/account.component';
 import { BackToSchoolComponent } from './back-to-school/back-to-school.component';
 import { MenComponent } from './men/men.component';
+import { KidsComponent } from './kids/kids.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MenComponent } from './men/men.component';
     WomanComponent,
     AccountComponent,
     BackToSchoolComponent,
-    MenComponent
+    MenComponent,
+    KidsComponent
   ],
   imports: [
     BrowserModule,

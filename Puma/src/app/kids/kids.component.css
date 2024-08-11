@@ -1,0 +1,199 @@
+.sale{
+    background-color: rgba(246, 141, 40);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;
+}
+
+.exclusive p{
+    margin: 0;
+}
+
+.off h3{
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.exclusive{
+    text-decoration: underline;
+}
+
+.kids_img img{
+    width: 100%;
+    height: 30rem;
+}
+
+.kids_img{
+    position: relative;
+}
+
+.build_flex{
+    position: absolute;
+    bottom: 30%;
+    padding-left: 3rem;
+}
+
+.build_kids_wardrobe_h1{
+    font-size: 1.1rem;
+}
+
+.build_kids_wardrobe_p{
+    font-size: 1.3rem;
+}
+
+.build_kids_wardeobe_btn button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.kids_arrival{
+    padding-left: 3rem;
+}
+
+.carousel-container {
+    background-color: white;
+    position: relative;
+    width: 95%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    min-width: calc(100% / 4); /* Adjust based on the number of visible slides */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .carousel-content {
+    width: 95%;
+  }
+  
+  .carousel-content img {
+    width: 100%;
+
+    object-fit: cover;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+  }
+  
+  .carousel-control.prev {
+    margin-right: 95%;
+    border-radius: 50%;
+  }
+  
+  .carousel-control.next {
+    margin-left: 95%;
+    border-radius: 50%;
+  }
+
+  .size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .by_size_img img{
+    width: 28rem;
+  }
+
+  .by_size_img{
+    position: relative;
+  }
+
+  .by_size_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    cursor: pointer;
+  }
+ 
+  .kid_flex{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    width: 28rem;
+    height: 50%;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .kid_h{
+    position: absolute;
+    bottom: 2rem;
+    padding-left: 1rem;
+  }
+
+  .kid_p{
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+  }
+
+  .kid_Performance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .kid_sport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .kid_ball{
+    position: relative;
+  }
+
+  .kid_ball img{
+    width: 42rem;
+    height: auto;
+  }
+
+  .kid_power{
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+    color: white;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    width: 41rem;
+    height: 50%;
+  }
+
+  .kid_power_h{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.2rem;
+  }

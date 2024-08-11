@@ -5,6 +5,7 @@ import { WomanComponent } from './woman/woman.component';
 import { AccountComponent } from './account/account.component';
 import { BackToSchoolComponent } from './back-to-school/back-to-school.component';
 import { MenComponent } from './men/men.component';
+import { KidsComponent } from './kids/kids.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path: 'men', component: MenComponent},
   {path: 'account', component: AccountComponent},
   {path: 'back-to-school', component: BackToSchoolComponent},
+  {path: 'kids', component: KidsComponent},
   {path: ' ', redirectTo: 'home', pathMatch: 'full' }
 ];
 

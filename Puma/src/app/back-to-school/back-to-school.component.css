@@ -207,13 +207,26 @@
 }
 
 @media screen and (min-width:0px) and (max-width:576px) {
+  .best_dresses img{
+    width: 100%;
+    height: 500px;
+  }
+
   .dressed_text{
-    left: 30%;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
   }
 
   .dressed_buttons{
     display: flex;
     flex-direction: column;
+  }
+  
+  .dressed_buttons a{
+    margin-top: 5%;
+    width: 105%;
   }
 
   .best_foot_container{
@@ -229,7 +242,14 @@
   }
 
   .class_over{
-    top: 750%;
+    position: relative;
+    left: 54%;
+    font-size: 0.3rem;
+    width: 15%;
+  }
+
+  .last img{
+    width: 100%;
   }
 }
 

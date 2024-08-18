@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.sneakers{
+    width: 20rem;
+    background-color: rgb(255, 132, 132);
+}
+
+.sneakers_img img{
+    width: 20rem;
+}

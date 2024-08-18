@@ -1,0 +1,11 @@
+<div class="sneaker_list">
+    <ul>
+        <li *ngFor="let products of sneakers">
+            <div class="sneakers">
+                <div class="sneakers_img"> <img [src]="products.image" alt="products.iage"> </div>
+                <div class="sneakers_name"> <h2>{{products.name}}</h2> </div>
+                <div class="sneakers_price"> <p>{{products.price | currency: "$"}}</p> </div>
+            </div>
+        </li>
+    </ul>
+</div>

@@ -1,3 +1,4 @@
+/*  */
 ul{
     list-style: none;
     display: flex;
@@ -13,4 +14,71 @@ ul{
 
 .sneakers_img img{
     width: 20rem;
+}
+/*  */
+
+.dot{
+    margin: 2rem;
+}
+
+.fenty_img{
+    position: relative;
+}
+
+.fenty_img img{
+    width: 100%;
+}
+
+.fenty_txt{
+    position: absolute;
+    top:7rem;
+    padding-left: 4rem;
+    color: white;
+}
+
+.fenty_h{
+    font-size: 1.1rem;
+}
+
+.fenty_h h1{
+    margin: 0;
+}
+
+.fenty_p, .fenty_p p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-weight: 100;
+}
+
+.fenty_X_puma{
+    padding-left: 2rem;
+}
+
+.sort{
+    display: flex;
+    gap: 2rem;
+    height: 2.5rem;
+    margin: 1rem;
+}
+
+.sort_img, .sort_img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    cursor: pointer;
+    width: 1.3rem;
+}
+
+.sort_pice{
+    border: 1px gray solid;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sort_pice:hover{
+    border: 1px black solid;
 }

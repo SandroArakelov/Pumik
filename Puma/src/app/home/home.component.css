@@ -135,7 +135,7 @@
 
 .classic_text{
     position: absolute;
-    top: 148%;
+    top: 160%;
     color: rgb(0, 0, 0);
     z-index: 1;
     letter-spacing: -1px;
@@ -166,7 +166,7 @@
     display: flex;
     gap: 1rem;
     position: absolute;
-    top: 170%;
+    top: 120%;
 }
 
 /* .By_You{
@@ -193,11 +193,11 @@
   .carousel {
     display: flex;
     transition: transform 0.5s ease;
-    width: 100%;
+    width: 90%;
   }
   
   .carousel-item {
-    min-width: calc(100% / 4); /* Adjust based on the number of visible slides */
+    min-width: calc(100% / 4); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -367,25 +367,25 @@
 
 /* REG */
 
-.discount_sticky {
-    height: 3600px;
-    width: 150px;
+/* .discount_sticky {
     position: absolute;
+    bottom: 0;
 }
-.get_discount {
+
+.get_discount{
     position: sticky;
-    top: 850px;
     padding-bottom: 2%;
     padding-left: 25%;
     z-index: 100;
 }
+
 .get_discount button {
     width: 10rem;
     height: 3rem;
     background-color: white;
     border: 2px solid black; 
-    cursor: pointer;
-}
+    cursor: pointer; 
+}*/
 
 @media screen and (min-width: 375px) and (max-width: 431px){
     .discount{

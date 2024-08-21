@@ -6,6 +6,7 @@ import { AccountComponent } from './account/account.component';
 import { BackToSchoolComponent } from './back-to-school/back-to-school.component';
 import { MenComponent } from './men/men.component';
 import { KidsComponent } from './kids/kids.component';
+import { FentyComponent } from './fenty/fenty.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'account', component: AccountComponent},
   {path: 'back-to-school', component: BackToSchoolComponent},
   {path: 'kids', component: KidsComponent},
+  {path: 'fenty', component: FentyComponent},
   {path: ' ', redirectTo: 'home', pathMatch: 'full' }
 ];
 

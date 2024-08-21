@@ -14,6 +14,7 @@ import { MenComponent } from './men/men.component';
 import { KidsComponent } from './kids/kids.component';
 import { FentyComponent } from './fenty/fenty.component';
 import { FentyService } from './fenty/fenty.service';
+import { ShippingComponent } from './shipping/shipping.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { FentyService } from './fenty/fenty.service';
     BackToSchoolComponent,
     MenComponent,
     KidsComponent,
-    FentyComponent
+    FentyComponent,
+    ShippingComponent
   ],
   imports: [
     BrowserModule,

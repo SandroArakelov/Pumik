@@ -15,7 +15,6 @@ export class FentyComponent implements OnInit{
 
   @Output() remove = new EventEmitter()
   @Output() buy = new EventEmitter()
-
   wiev: boolean = false;
   sneakers: any[] = [];
   keyword: string | number = '';
@@ -28,7 +27,7 @@ export class FentyComponent implements OnInit{
 
   ngOnInit(){
     this.Fentyservice.getproducts().subscribe(data => {
-      this.sneakers = data
+      this.sneakers = data.hits;
       console.log('sneakers', this.sneakers)
     },
     error => {

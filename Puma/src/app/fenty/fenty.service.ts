@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
 })
 export class FentyService {
     ApiKey = "d92f9f1d23msh9b2df169d0bb826p11b38djsnef384c25eb46"
-    ApiUrl = "https://shoes-collections.p.rapidapi.com/shoes"
+    ApiUrl = "https://the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com/search?query=Adidas%20Forum/12"
 
 
     constructor(public http: HttpClient){}
@@ -15,9 +15,9 @@ export class FentyService {
     getproducts(): Observable<any> {
       const headers = new HttpHeaders()
       .set('x-rapidapi-key', this.ApiKey)
-      .set('x-rapidapi-host', 'shoes-collections.p.rapidapi.com')
+      .set('x-rapidapi-host', 'the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com')
 
-      return this.http.get(this.ApiUrl, {headers}).pipe(
+      return this.http.get(this.ApiUrl, {headers}).pipe( 
         map(response => response)
       )
     }

@@ -22,23 +22,25 @@
         <div class="sort_img">
             <img src="assets\tool.png" alt="">
         </div>
-
-        <div class="sort_pice"><p>Gender <img src="assets\down-arrow.png"> </p></div>
-        <div class="sort_pice"><p>Category <img src="assets\down-arrow.png"></p></div>
-        <div class="sort_pice"><p>Price <img src="assets\down-arrow.png"></p></div>
-        <div class="sort_pice"><p>Size <img src="assets\down-arrow.png"></p></div>
-        <div class="sort_pice"><p>Color <img src="assets\down-arrow.png"></p></div>
+        <div class="sort_pice"><p>Gender</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Category</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Price</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Size</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Color</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_jujul"><b>SORT BY</b> <img src="assets\down-arrow.png"> </div> 
     </div>
     <hr>
 </div>
-
 <div class="sneaker_list">
     <ul>
         <li *ngFor="let products of sneakers">
-            <div class="sneakers">
+            <div class="sneakers" routerLink="/shipping">
                 <div class="sneakers_img"> <img [src]="products.image" alt="products.iage"> </div>
-                <div class="sneakers_name"> <h2>{{products.name}}</h2> </div>
-                <div class="sneakers_price"> <p>{{products.price | currency: "$"}}</p> </div>
+                <div class="flex_price">
+                <div class="sneakers_title"> <h4>{{products.title}}</h4></div>
+                <div class="sneakers_price"> <p>{{products.base_price | currency: "$"}}</p> </div>
+            </div>
+            <div class="best_seller"> <button><span>BEST SELLER</span></button></div>
             </div>
         </li>
     </ul>

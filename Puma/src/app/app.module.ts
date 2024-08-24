@@ -15,6 +15,7 @@ import { KidsComponent } from './kids/kids.component';
 import { FentyComponent } from './fenty/fenty.component';
 import { FentyService } from './fenty/fenty.service';
 import { ShippingComponent } from './shipping/shipping.component';
+import { CollaborationsComponent } from './collaborations/collaborations.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ShippingComponent } from './shipping/shipping.component';
     MenComponent,
     KidsComponent,
     FentyComponent,
-    ShippingComponent
+    ShippingComponent,
+    CollaborationsComponent
   ],
   imports: [
     BrowserModule,

@@ -100,3 +100,163 @@ footer{
     color: gray;
     font-size: 0.8rem;
 }
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .navigations{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .last{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social{
+        width: 75%;
+    }
+
+    .country{
+        margin-top: 5%;
+    }
+
+    .chosen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chosen a{
+        border: 0;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+  }
+  
+  @media screen and (min-width:576px) and (max-width:768px) {
+    .navigations{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .last{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social{
+        width: 75%;
+    }
+
+    .country{
+        margin-top: 5%;
+    }
+
+    .chosen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chosen a{
+        border: 0;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    .app{
+        padding: 5%;
+    }
+      
+  }
+  
+  @media screen and (min-width:768px) and (max-width:992px) {
+    .navigations{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .last{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social{
+        width: 75%;
+    }
+
+    .country{
+        margin-top: 5%;
+    }
+
+    .chosen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chosen a{
+        border: 0;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+    .navigations{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .last{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social{
+        width: 75%;
+    }
+
+    .country{
+        margin-top: 5%;
+    }
+
+    .chosen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chosen a{
+        border: 0;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    .app{
+        padding: 5%;
+    }
+  }
+  
+  @media screen and (min-width:992px) and (max-width:1200px) {
+      .navigations{
+        width: 80%;
+      }
+  }
+  
+  @media screen and (min-height:600px) and (max-height:830px) {
+      
+  }
+  
+  @media screen and (min-width:1200px) and (max-width:1400px) {
+      
+  }

@@ -27,7 +27,7 @@ export class FentyComponent implements OnInit{
   ){}
 
   ngOnInit(){
-    this.Fentyservice.getproducts().subscribe(data => {
+    this.Fentyservice.GetProductsUrl_1().subscribe(data => {
       this.sneakers = data.hits;
       console.log('sneakers', this.sneakers)
     },

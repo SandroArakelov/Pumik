@@ -7,8 +7,6 @@ import { BackToSchoolComponent } from './back-to-school/back-to-school.component
 import { MenComponent } from './men/men.component';
 import { KidsComponent } from './kids/kids.component';
 import { FentyComponent } from './fenty/fenty.component';
-import { ShippingComponent } from './shipping/shipping.component';
-import { CollaborationsComponent } from './collaborations/collaborations.component';
 
 
 const routes: Routes = [
@@ -19,10 +17,7 @@ const routes: Routes = [
   {path: 'back-to-school', component: BackToSchoolComponent},
   {path: 'kids', component: KidsComponent},
   {path: 'fenty', component: FentyComponent},
-  {path: 'shipping', component: ShippingComponent},
-  {path: 'collaborations', component: CollaborationsComponent},
-  {path: ' ', redirectTo: 'home', pathMatch: 'full' }
-
+  {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({

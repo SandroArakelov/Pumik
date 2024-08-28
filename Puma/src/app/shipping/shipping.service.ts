@@ -13,11 +13,13 @@ export class ShippingService {
   items$ = this.items.asObservable();
 
   AddShipping(product: ShippingVal){
+    if(this.shipping.length !== 1){
     const currentitems = this.items.value;
-    this.items.next([...currentitems, product])
+    this.items.next([currentitems, product])
     this.shipping.push(product)
     localStorage.setItem('shipping', JSON.stringify(this.shipping))
-    console.log(this.shipping)
+    this.shipping.shift()
+    }
   }
 
   retriveData(key: string):any{

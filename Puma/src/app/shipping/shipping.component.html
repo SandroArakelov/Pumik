@@ -6,8 +6,8 @@
                 <div class="shipping-brand"><h1>{{products.brand}}</h1></div>
                 <div class="shipping_title"><h2>{{products.title}}</h2></div>
                 <div class="shipping_price"><p>{{products.base_price | currency: "$"}}</p></div>
-                <div class="size" *ngFor="let variant of ShippingSizes">
-                <div class="shipping_sizes"><button>{{products.variants}}</button></div>
+                <div class="size" *ngFor="let variant of MyShipping">
+                <div class="shipping_sizes"><button>{{variant.size}}</button></div>
             </div>
             </div>
         </li>

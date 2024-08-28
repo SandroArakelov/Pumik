@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ShippingService } from './shipping.service';
 
 @Component({
@@ -6,7 +6,7 @@ import { ShippingService } from './shipping.service';
   templateUrl: './shipping.component.html',
   styleUrls: ['./shipping.component.css']
 })
-export class ShippingComponent {
+export class ShippingComponent{
   MyShipping: any[] = []
   @Input() ShippingSizes: [] = [];
   constructor(private shippingServ: ShippingService){}
@@ -16,7 +16,7 @@ export class ShippingComponent {
       this.MyShipping = sizes
       if(this.shippingServ.retriveData('shipping').length > 0){
         this.MyShipping = this.shippingServ.retriveData('shipping')
-        console.log(this.MyShipping)
+        console.log('sneakers', this.MyShipping)
       }
     })
   }

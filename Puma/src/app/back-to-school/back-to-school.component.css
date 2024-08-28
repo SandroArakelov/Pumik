@@ -207,6 +207,11 @@
 }
 
 @media screen and (min-width:0px) and (max-width:576px) {
+  .off{
+    font-size: medium;
+    text-align: center;
+  }
+
   .best_dresses img{
     width: 100%;
     height: 500px;
@@ -235,6 +240,12 @@
 
   .school_deals_photos{
     flex-direction: column;
+    width: 100%;
+  }
+
+  .school_deals_photos img{
+    flex-direction: column;
+    width: 100%;
   }
 
   .best_foot_container img{
@@ -251,25 +262,149 @@
   .last img{
     width: 100%;
   }
+
+  .class_over{
+    display: 0;
+  }
 }
 
 @media screen and (min-width:576px) and (max-width:768px) {
+  .dressed_text{
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+  }
 
+  .best_foot_container{
+    flex-direction: column;
+  }
+
+  .school_deals_photos{
+    flex-direction: column;
+    width: 100%;
+  }
     
+  .best_foot_container img{
+    height: 550px;
+  }
+
+  .class_over{
+    display: none;
+  }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
-    
+  .class_over{
+    display: none;
+  }
+
+  .off{
+    font-size: medium;
+    text-align: center;
+  }
+
+  .best_dresses img{
+    width: 100%;
+    height: 500px;
+  }
+
+  .dressed_text{
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+  }
+
+  .dressed_buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dressed_buttons a{
+    margin-top: 5%;
+    width: 105%;
+  }
+
+  .best_foot_container{
+    flex-direction: column;
+  }
+
+  .school_deals_photos{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .school_deals_photos img{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .best_foot_container img{
+    height: 250px;
+  }
+
+  .class_over{
+    position: relative;
+    left: 54%;
+    font-size: 0.3rem;
+    width: 15%;
+  }
+
+  .last img{
+    width: 100%;
+  }
+
+  .class_over{
+    display: 0;
+  }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
+  .dressed_text{
+    width: 50%;
+    left: 40%;
+  }
+
+  .best_foot_container img{
+    height: 250px;
+  }
+
+  .school_deals_photos{
+    flex-wrap: wrap;
+  }
+
+  .school_deals_photos img{
+    height: 250px;
     
+  }
+
+  .class_over{
+    display: none;
+  }
+
 }
 
-@media screen and (min-height:600px) and (max-height:830px) {
-    
-}
+@media screen and (min-width:1200px) and (max-width:1440px) {
+    .dressed_text{
+    width: 50%;
+    left: 40%;
+  }
 
-@media screen and (min-width:1200px) and (max-width:1400px) {
+  .best_foot_container img{
+    height: 400px;
+  }
+
+  .school_deals_photos{
+    flex-wrap: wrap;
+  }
+
+  .school_deals_photos img{
+    height: 400px;
     
+  }
+
+  .class_over{
+    display: none;
+  }
 }

@@ -17,7 +17,7 @@ const routes: Routes = [
   {path: 'back-to-school', component: BackToSchoolComponent},
   {path: 'kids', component: KidsComponent},
   {path: 'fenty', component: FentyComponent},
-  {path: ' ', redirectTo: 'home', pathMatch: 'full' }
+  {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({

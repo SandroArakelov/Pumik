@@ -15,15 +15,15 @@ export class FentyService {
     GetProductsUrl_1(): Observable<any> {
       const headers = new HttpHeaders()
       .set('x-rapidapi-key', this.ApiKey)
-      .set('x-rapidapi-host', 'shoes-collections.p.rapidapi.com')
+      .set('x-rapidapi-host', 'the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com')
 
-      return this.http.get(this.ApiUrl_1, {headers}).pipe( 
+      return this.http.get(this.ApiUrl_1, {headers}).pipe(
         map(response => response)
       )
     }
 
-    //2//  
-    ApiUrl_2 = "https://the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com/search?query=Adidas%20Forum/11"
+    //2//
+    ApiUrl_2 = "https://the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com/search?query=Adidas%20Forum/10"
     GetProductsUrl_2(): Observable<any> {
       const headers = new HttpHeaders()
       .set('x-rapidapi-key', this.ApiKey)

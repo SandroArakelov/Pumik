@@ -99,7 +99,7 @@
     <ul>
         <li *ngFor="let products of ColabProducts">
             <div class="sneakers" routerLink="/shipping">
-                <div class="sneakers_img"> <img [src]="products.image" alt="products.iage"> </div>
+                <div class="sneakers_img" (click)="AddSize(products)"> <img [src]="products.image" alt="products.image"> </div>
                 <div class="flex_price">
                 <div class="sneakers_title"> <h4>{{products.title}}</h4></div>
                 <div class="sneakers_price"> <p>{{products.base_price | currency: "$"}}</p> </div>

@@ -4,17 +4,49 @@ ul{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .sneakers{
     width: 20rem;
-    background-color: rgb(255, 132, 132);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.sneakers_img{
+    background-color: black;
+    height: 14rem;
 }
 
 .sneakers_img img{
     width: 20rem;
+    height: 14rem;
+    opacity: 0.98;
 }
+
+.sneakers_title{
+    width: 15rem;
+}
+
+.flex_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best_seller button{
+    background-color: rgba(6, 86, 182, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0px solid rgb(229, 231, 235);
+    font-weight: 700;
+    font-size: 12px;
+    height: 1.5rem;
+    border-radius: 0.125rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    cursor: pointer;
+}
+
 /*  */
 
 .dot{
@@ -53,12 +85,17 @@ ul{
 .fenty_X_puma{
     padding-left: 2rem;
 }
+ 
+/*.sort_by{
+    position: sticky;
+} */
 
 .sort{
     display: flex;
     gap: 2rem;
     height: 2.5rem;
     margin: 1rem;
+    background-color: white;
 }
 
 .sort_img, .sort_img img{
@@ -77,6 +114,17 @@ ul{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-weight: 700;
+}
+
+.sort_jujul{
+    border: 1px gray solid;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: auto;
 }
 
 .sort_pice:hover{

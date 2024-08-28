@@ -8,6 +8,7 @@ import { MenComponent } from './men/men.component';
 import { KidsComponent } from './kids/kids.component';
 import { FentyComponent } from './fenty/fenty.component';
 import { CollaborationsComponent } from './collaborations/collaborations.component';
+import { ShippingComponent } from './shipping/shipping.component';
 
 
 const routes: Routes = [
@@ -20,8 +21,12 @@ const routes: Routes = [
   {path: 'fenty', component: FentyComponent},
 <<<<<<< HEAD
   {path: 'collaborations', component: CollaborationsComponent},
+<<<<<<< HEAD
 =======
 >>>>>>> origin/rufulio
+=======
+  {path: 'shipping', component: ShippingComponent},
+>>>>>>> origin/Sandro
   {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

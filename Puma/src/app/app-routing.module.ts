@@ -18,7 +18,10 @@ const routes: Routes = [
   {path: 'back-to-school', component: BackToSchoolComponent},
   {path: 'kids', component: KidsComponent},
   {path: 'fenty', component: FentyComponent},
+<<<<<<< HEAD
   {path: 'collaborations', component: CollaborationsComponent},
+=======
+>>>>>>> origin/rufulio
   {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

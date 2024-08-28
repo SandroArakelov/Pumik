@@ -387,87 +387,288 @@
     cursor: pointer; 
 }*/
 
-@media screen and (min-width: 375px) and (max-width: 431px){
-    .discount{
+@media screen and (min-width:0px) and (max-width:576px) {
+    .discount h2{
         text-align: center;
     }
 
     .New_Colection_Flex{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        row-gap: 2rem;
-        width: 80%;
+    }
+    
+    .card_img, .card_img img{
+        width: 20rem;
     }
 
     .head{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .get_discount{
-        position: absolute;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        padding-left: 1rem;
-        height: auto;
-        display: none;
-    }
-
-    .classic_text{
-        display: none;
-    }  
-    
-    .Men_Women{
-        display: none;
-    }
-
-    .model_img{
-        display: none;
-    }
-
-    .flex_text{
-        display: none;
-    }
-
-    .back_school{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .carousel-container{
-        width: 90%;
-        margin: auto;
-    }
-
-    .carousel-content img{
-        width: 6rem;
-    }
-
-    .sport_header h4{
-        font-size: 0.9rem;
-    }
-
-    .sport_button{
-        width:auto;
-        height: 2.5rem;
-    }
-
-    .sport_button button{
-        margin-top: 3rem;
-    }
-
-    .sport_paragraph p {
-        font-size: 0.9rem;
+        width: 20rem;
     }
 
     .classic{
-        display: none;
+        margin-top: 5%;
     }
+
+    .cash_button{
+        justify-content: flex-start;
+    }
+
+    .cashback{
+        flex-direction: column;
+    }
+
+    .Men_Women{
+        flex-direction: column;
+    }
+
+    .model_img, .model_img img{
+        width: 20rem;
+    }
+
+    .school_img, .school_img img{
+        width: 20rem;
+
+    }
+
+    .back_school{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .classic_text{
+        top: 170%;
+        left: 15%;
+    }
+
+    .classic_text h2, p{
+        font-size: small;
+        color: #d7d7d7;
+    }
+
+    .sport_button{
+        height: 1rem;
+        top: 70%;
+    }
+
+    .sport_header h4{
+        font-size: smaller;
+    }
+
+    .sport_paragraph p{
+        font-size: smaller;
+    }
+}
+  
+@media screen and (min-width:576px) and (max-width:768px) {
+    .discount h2{
+        text-align: center;
+    }
+
+    .New_Colection_Flex{
+        flex-flow: wrap;
+    }
+    
+    .card_img, .card_img img{
+        width: 20rem;
+    }
+
+    .head{
+        width: 20rem;
+    }
+
+    .classic{
+        margin-top: 5%;
+    }
+
+    .cash_button{
+        justify-content: flex-start;
+    }
+
+    .cashback{
+        flex-direction: column;
+    }
+
+    .Men_Women{
+        flex-direction: column;
+    }
+
+    .model_img, .model_img img{
+        width: 20rem;
+    }
+
+    .school_img, .school_img img{
+        width: 20rem;
+
+    }
+
+    .back_school{
+        flex-flow: wrap ;
+        width: 100%;
+        align-items: center;
+    }
+
+    .classic_text{
+        top: 170%;
+        left: 15%;
+    }
+
+    .classic_text h2, p{
+        font-size: small;
+        color: #d7d7d7;
+    }
+
+    .sport_button{
+        height: 1rem;
+        top: 70%;
+    }
+
+    .sport_header h4{
+        font-size: smaller;
+    }
+
+    .sport_paragraph p{
+        font-size: smaller;
+    }
+      
+}
+  
+@media screen and (min-width:768px) and (max-width:992px) {
+    .New_Colection_Flex{
+        flex-flow: wrap;
+    }
+    
+    .card_img, .card_img img{
+        width: 20rem;
+    }
+
+    .head{
+        width: 20rem;
+    }
+
+    .classic{
+        margin-top: 5%;
+    }
+
+    .cash_button{
+        justify-content: flex-start;
+    }
+
+    .cashback{
+        flex-direction: column;
+    }
+
+    .Men_Women{
+        flex-direction: column;
+    }
+
+    .model_img, .model_img img{
+        width: 20rem;
+    }
+
+    .school_img, .school_img img{
+        width: 20rem;
+
+    }
+
+    .back_school{
+        flex-flow: wrap ;
+        width: 100%;
+        align-items: center;
+    }
+
+    .classic_text{
+        top: 170%;
+        left: 15%;
+    }
+
+    .classic_text h2, p{
+        font-size: small;
+        color: #d7d7d7;
+    }
+
+    .sport_button{
+        height: 1rem;
+        top: 70%;
+    }
+
+    .sport_header h4{
+        font-size: smaller;
+    }
+
+    .sport_paragraph p{
+        font-size: smaller;
+    }
+}
+  
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .New_Colection_Flex{
+        flex-flow: wrap;
+    }
+    
+    .card_img, .card_img img{
+        width: 20rem;
+    }
+
+    .head{
+        width: 20rem;
+    }
+
+    .classic{
+        margin-top: 5%;
+    }
+
+    .cash_button{
+        justify-content: flex-start;
+    }
+
+    .cashback{
+        flex-direction: column;
+    }
+
+    .Men_Women{
+        flex-direction: column;
+    }
+
+    .model_img, .model_img img{
+        width: 20rem;
+    }
+
+    .school_img, .school_img img{
+        width: 20rem;
+
+    }
+
+    .back_school{
+        flex-flow: wrap ;
+        width: 100%;
+        align-items: center;
+    }
+
+    .classic_text{
+        top: 120%;
+        left: 15%;
+    }
+
+    .classic_text h2, p{
+        font-size: small;
+        color: #000000;
+    }
+
+    .sport_button{
+        height: 1rem;
+        top: 70%;
+    }
+
+    .sport_header h4{
+        font-size: smaller;
+    }
+
+    .sport_paragraph p{
+        font-size: smaller;
+        color: #d7d7d7;
+    }
+}
+  
+@media screen and (min-width:1200px) and (max-width:1400px) {
+      
 }

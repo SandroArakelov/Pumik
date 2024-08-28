@@ -193,3 +193,244 @@
     align-items: center;
     gap: 1rem;
   }
+
+@media screen and (min-width:0px) and (max-width:576px){
+
+  .all{
+    top: 27%;
+  }
+
+  .your_wardrobe_h1 h1{
+    font-size: smaller;
+    line-height: 5%;
+  }
+
+  .your_wardrobe_p p{
+    font-size: smaller;
+    line-height: 5%;
+
+  }
+
+  .category_imgs{
+    flex-direction: column;
+  }
+
+  .category_imgs img{
+    width: 20rem;
+  }
+
+  .grl_contain{
+    flex-direction: column;
+  }
+
+  .grl_contain img{
+    width: 20rem;
+  }
+
+  .sport_performance_imges{
+    flex-direction: column;
+  }
+
+  .sport_performance_imges img{
+    width: 20rem;
+  }
+
+  .fit_images_list{
+    flex-direction: column;
+  }
+
+  .fit_images_list img{
+    width: 20rem;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+  .all{
+    top: 27%;
+  }
+
+  .your_wardrobe_h1 h1{
+    font-size: medium;
+  }
+
+  .your_wardrobe_p p{
+    font-size: medium;
+
+  }
+
+  .category_imgs{
+    flex-wrap: wrap;
+  }
+
+  .category_imgs img{
+    width: 20rem;
+  }
+
+  .grl_contain{
+    flex-wrap: wrap;
+  }
+
+  .grl_contain img{
+    width: 20rem;
+  }
+
+  .sport_performance_imges{
+    flex-wrap: wrap;
+  }
+
+  .sport_performance_imges img{
+    width: 20rem;
+  }
+
+  .fit_images_list{
+    flex-wrap: wrap;
+  }
+
+  .fit_images_list img{
+    width: 20rem;
+  }
+      
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  .all{
+    top: 27%;
+  }
+
+  .your_wardrobe_h1 h1{
+    font-size: medium;
+  }
+
+  .your_wardrobe_p p{
+    font-size: medium;
+
+  }
+
+  .category_imgs{
+    flex-wrap: wrap;
+  }
+
+  .category_imgs img{
+    width: 20rem;
+  }
+
+  .grl_contain{
+    flex-wrap: wrap;
+  }
+
+  .grl_contain img{
+    width: 20rem;
+  }
+
+  .sport_performance_imges{
+    flex-wrap: wrap;
+  }
+
+  .sport_performance_imges img{
+    width: 20rem;
+  }
+
+  .fit_images_list{
+    flex-wrap: wrap;
+  }
+
+  .fit_images_list img{
+    width: 20rem;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+  .all{
+    top: 27%;
+  }
+
+  .your_wardrobe_h1 h1{
+    font-size: medium;
+  }
+
+  .your_wardrobe_p p{
+    font-size: medium;
+
+  }
+
+  .category_imgs{
+    flex-wrap: wrap;
+  }
+
+  .category_imgs img{
+    width: 30rem;
+  }
+
+  .grl_contain{
+    flex-wrap: wrap;
+  }
+
+  .grl_contain img{
+    width: 30rem;
+  }
+
+  .sport_performance_imges{
+    flex-wrap: wrap;
+  }
+
+  .sport_performance_imges img{
+    width: 30rem;
+  }
+
+  .fit_images_list{
+    flex-wrap: wrap;
+  }
+
+  .fit_images_list img{
+    width: 20rem;
+  }
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+  .all{
+    top: 27%;
+  }
+
+  .your_wardrobe_h1 h1{
+    font-size: medium;
+  }
+
+  .your_wardrobe_p p{
+    font-size: medium;
+
+  }
+
+  .category_imgs{
+    flex-wrap: wrap;
+  }
+
+  .category_imgs img{
+    width: 30rem;
+  }
+
+  .grl_contain{
+    flex-wrap: wrap;
+  }
+
+  .grl_contain img{
+    width: 30rem;
+  }
+
+  .sport_performance_imges{
+    flex-wrap: wrap;
+  }
+
+  .sport_performance_imges img{
+    width: 30rem;
+  }
+
+  .fit_images_list{
+    flex-wrap: wrap;
+  }
+
+  .fit_images_list img{
+    width: 20rem;
+  }
+}

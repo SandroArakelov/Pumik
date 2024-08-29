@@ -286,7 +286,7 @@
   }
     
   .best_foot_container img{
-    height: 550px;
+    height: 500px;
   }
 
   .class_over{
@@ -385,7 +385,7 @@
 
 }
 
-@media screen and (min-width:1200px) and (max-width:1440px) {
+@media screen and (min-width:1200px) and (max-width:1540px) {
     .dressed_text{
     width: 50%;
     left: 40%;

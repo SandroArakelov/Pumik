@@ -18,12 +18,9 @@ export class ShippingService {
     this.items.next([currentitems, product])
     this.shipping.push(product)
     localStorage.setItem('shipping', JSON.stringify(this.shipping))
-<<<<<<< Updated upstream
     this.shipping.shift()
     }
-=======
->>>>>>> Stashed changes
-  }
+}
 
   retriveData(key: string):any{
     const data = localStorage.getItem(key)

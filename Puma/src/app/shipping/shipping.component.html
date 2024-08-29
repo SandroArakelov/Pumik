@@ -3,17 +3,37 @@
         <li *ngFor="let products of MyShipping">
             <div class="shipping">
                 <div class="shipping_img"> <img [src]="products.image" alt=""> </div>
-<<<<<<< HEAD
+
                 <div class="shipping_flex">
-                <div class="shipping-brand"><h1>{{products.brand}}</h1></div>
-=======
->>>>>>> 18f115a49e4a32b0b0595b7dbdeb20a3633d5a58
+                <!-- <div class="shipping-brand"><h1>{{products.brand}}</h1></div> -->
                 <div class="shipping_title"><h2>{{products.title}}</h2></div>
                 <div class="shipping_price"><p>{{products.base_price | currency: "$"}}</p></div>
-                <div class="size" *ngFor="let variant of MyShipping">
+                <div class="shipping_explore"> <button>EXPLORE THIS COLLECTION</button> </div>
+
+                <hr>
+                <div class="text_size"><p>Size</p></div>
+                <div class="shipping_btn_flex">
                 <div class="shipping_sizes"><button>{{products.variants[0].size}}</button></div>
-            </div>
-            </div>
+                <div class="shipping_sizes"><button>{{products.variants[1].size}}</button></div>
+                <div class="shipping_sizes"><button>{{products.variants[2].size}}</button></div>
+                <div class="shipping_sizes"><button>{{products.variants[3].size}}</button></div>
+                <div class="shipping_sizes"><button>{{products.variants[4].size}}</button></div>
+                <div class="shipping_sizes"><button>{{products.variants[5].size}}</button></div>
+                <div class="shipping_sizes"><button>{{products.variants[6].size}}</button></div>
+                <div class="shipping_sizes"><button>{{products.variants[7].size}}</button></div>
+                <div class="shipping_sizes"><button>{{products.variants[8].size}}</button></div>
+                    </div>
+                    <div class="fit_finder">
+                        <img src="assets\fit-finder-PDP-black.svg" alt="">
+
+
+                        <div class="fit_para">
+                        <p>FIND MY SIZE</p>
+                        <hr class="fit_hr">
+                        <p>SIZE GUIDE</p>
+                    </div>
+                    </div>
+                </div>
             </div>
         </li>
     </ul>

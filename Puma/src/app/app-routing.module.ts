@@ -23,6 +23,7 @@ const routes: Routes = [
   {path: 'fenty', component: FentyComponent},
   {path: 'collaborations', component: CollaborationsComponent},
   {path: 'shipping', component: ShippingComponent},
+  {path: 'sport', component: SportComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

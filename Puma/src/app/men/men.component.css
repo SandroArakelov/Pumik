@@ -194,19 +194,207 @@
   }
 
 @media screen and (min-width:0px) and (max-width:576px){
+  .off{
+    text-align: center;
+  }
 
+  .build{
+    top: 28%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .build button{
+    height: 5%;
+  }
+
+  .My_wardrobe_h1 h1{
+    display: none;
+  }
+
+  .My_wardrobe_p{
+    height: 50%;
+  }
+
+  .My_wardrobe_p p{
+    line-height: 80%;
+  }
+
+  
+  
+  .nigger{
+    flex-direction: column;
+  }
+
+  .ng_piska img{
+    width: 20rem;
+  }
+
+  .men_flex{
+    flex-direction: column;
+  }
+
+  .men_imgs img{
+    width: 20rem;
+  }
+
+  .peroformance{
+    flex-direction: column;
+  }
+
+  .prfor_imgs img{
+    width: 20rem;
+  }
 }
   
 @media screen and (min-width:576px) and (max-width:768px) {
+  .off{
+    text-align: center;
+  }
 
+  .build{
+    top: 28%;
+    left: 20%;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .build button{
+    height: 5%;
+  }
+
+  .My_wardrobe_p{
+    height: 50%;
+  }
+
+  .My_wardrobe_p p{
+    line-height: 80%;
+  }
+
+  .nigger{
+    flex-wrap: wrap;
+  }
+
+  .ng_piska img{
+    width: 20rem;
+  }
+
+  .men_flex{
+    flex-wrap: wrap;
+  }
+
+  .men_imgs img{
+    width: 20rem;
+  }
+
+  .peroformance{
+    flex-wrap: wrap;
+  }
+
+  .prfor_imgs img{
+    width: 20rem;
+  }
 }
   
 @media screen and (min-width:768px) and (max-width:992px) {
+.off{
+    text-align: center;
+  }
 
+  .build{
+    top: 28%;
+    left: 20%;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .build button{
+    height: 5%;
+  }
+
+  .My_wardrobe_p{
+    height: 50%;
+  }
+
+  .My_wardrobe_p p{
+    line-height: 80%;
+  }
+  
+  .nigger{
+    flex-wrap: wrap;
+  }
+
+  .ng_piska img{
+    width: 20rem;
+  }
+
+  .men_flex{
+    flex-wrap: wrap;
+  }
+
+  .men_imgs img{
+    width: 20rem;
+  }
+
+  .peroformance{
+    flex-wrap: wrap;
+  }
+
+  .prfor_imgs img{
+    width: 20rem;
+  }
 }
   
 @media screen and (min-width:992px) and (max-width:1200px) {
+  .off{
+    text-align: center;
+  }
+
+  .build{
+    top: 30%;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .build button{
+    height: 5%;
+  }
+
+  .My_wardrobe_p{
+    height: 50%;
+  }
+
+  .My_wardrobe_p p{
+    line-height: 80%;
+  }
   
+  .nigger{
+    flex-wrap: wrap;
+  }
+
+  .ng_piska img{
+    width: 30rem;
+  }
+
+  .men_flex{
+    flex-wrap: wrap;
+  }
+
+  .men_imgs img{
+    width: 30rem;
+  }
+
+  .peroformance{
+    flex-wrap: wrap;
+  }
+
+  .prfor_imgs img{
+    width: 30rem;
+  }
 }
   
   

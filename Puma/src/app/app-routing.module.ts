@@ -9,9 +9,11 @@ import { KidsComponent } from './kids/kids.component';
 import { FentyComponent } from './fenty/fenty.component';
 import { CollaborationsComponent } from './collaborations/collaborations.component';
 import { ShippingComponent } from './shipping/shipping.component';
+import { SportComponent } from './sport/sport.component';
 
 
 const routes: Routes = [
+  {path: '', redirectTo: 'home', pathMatch: 'full' },
   {path: 'home', component: HomeComponent},
   {path: 'woman', component: WomanComponent},
   {path: 'men', component: MenComponent},

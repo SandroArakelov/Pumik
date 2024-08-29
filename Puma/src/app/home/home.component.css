@@ -135,7 +135,7 @@
 
 .classic_text{
     position: absolute;
-    top: 160%;
+    top: 120%;
     color: rgb(0, 0, 0);
     z-index: 1;
     letter-spacing: -1px;

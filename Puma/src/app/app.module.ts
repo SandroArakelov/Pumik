@@ -16,6 +16,7 @@ import { FentyComponent } from './fenty/fenty.component';
 import { FentyService } from './fenty/fenty.service';
 import { ShippingComponent } from './shipping/shipping.component';
 import { CollaborationsComponent } from './collaborations/collaborations.component';
+import { SportComponent } from './sport/sport.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { CollaborationsComponent } from './collaborations/collaborations.compone
     KidsComponent,
     FentyComponent,
     ShippingComponent,
-    CollaborationsComponent
+    CollaborationsComponent,
+    SportComponent
   ],
   imports: [
     BrowserModule,

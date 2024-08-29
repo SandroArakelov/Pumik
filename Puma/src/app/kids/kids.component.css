@@ -197,3 +197,115 @@
     bottom: 0;
     font-size: 1.2rem;
   }
+
+@media screen and (min-width:0px) and (max-width:576px){
+  .off{
+    text-align: center;
+  }
+
+  .by_size_list img{
+    width: 20rem;
+  }
+
+  .kid_flex{
+    width: 20rem;
+  }
+
+  .kid_sport{
+    flex-direction: column;
+  }
+
+  .kid_power{
+    width: 20rem;
+    padding-left: 0;
+  }
+
+  .kid_ball img{
+    width: 20rem;
+  }
+}
+    
+@media screen and (min-width:576px) and (max-width:768px) {
+  .off{
+    text-align: center;
+  }
+
+  .by_size_list img{
+    width: 20rem;
+  }
+
+  .kid_flex{
+    width: 20rem;
+  }
+
+  .kid_sport{
+    flex-wrap: wrap;
+  }
+
+  .kid_power{
+    width: 20rem;
+    padding-left: 0;
+  }
+
+  .kid_ball img{
+    width: 20rem;
+  }
+}
+    
+@media screen and (min-width:768px) and (max-width:992px) {
+  .off{
+    text-align: center;
+  }
+
+  .by_size_list img{
+    width: 20rem;
+  }
+
+  .kid_flex{
+    width: 20rem;
+  }
+
+  .kid_sport{
+    flex-wrap: wrap;
+  }
+
+  .kid_power{
+    width: 20rem;
+    padding-left: 0;
+  }
+
+  .kid_ball img{
+    width: 20rem;
+  }
+}
+    
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .off{
+    text-align: center;
+  }
+
+  .by_size_list img{
+    width: 20rem;
+  }
+
+  .kid_flex{
+    width: 20rem;
+  }
+
+  .kid_sport{
+    flex-wrap: wrap;
+  }
+
+  .kid_power{
+    width: 20rem;
+    padding-left: 0;
+  }
+
+  .kid_ball img{
+    width: 20rem;
+  }
+}
+     
+@media screen and (min-width:1200px) and (max-width:1400px) {
+      
+}

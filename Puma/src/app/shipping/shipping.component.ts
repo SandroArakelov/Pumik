@@ -15,8 +15,13 @@ export class ShippingComponent{
     this.shippingServ.items$.subscribe(sizes =>{
       this.MyShipping = sizes
       if(this.shippingServ.retriveData('shipping').length > 0){
+<<<<<<< Updated upstream
         this.MyShipping = this.shippingServ.retriveData('shipping')
         console.log('sneakers', this.MyShipping)
+=======
+       this.MyShipping = this.shippingServ.retriveData('shipping')
+        console.log(this.MyShipping)
+>>>>>>> Stashed changes
       }
     })
   }

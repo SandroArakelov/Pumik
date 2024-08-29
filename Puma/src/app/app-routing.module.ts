@@ -19,14 +19,8 @@ const routes: Routes = [
   {path: 'back-to-school', component: BackToSchoolComponent},
   {path: 'kids', component: KidsComponent},
   {path: 'fenty', component: FentyComponent},
-<<<<<<< HEAD
   {path: 'collaborations', component: CollaborationsComponent},
-<<<<<<< HEAD
-=======
->>>>>>> origin/rufulio
-=======
   {path: 'shipping', component: ShippingComponent},
->>>>>>> origin/Sandro
   {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

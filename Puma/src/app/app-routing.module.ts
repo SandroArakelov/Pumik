@@ -10,6 +10,7 @@ import { FentyComponent } from './fenty/fenty.component';
 import { CollaborationsComponent } from './collaborations/collaborations.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { SportComponent } from './sport/sport.component';
+import { CartComponent } from './cart/cart.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'collaborations', component: CollaborationsComponent},
   {path: 'shipping', component: ShippingComponent},
   {path: 'sport', component: SportComponent},
+  {path: 'cart', component: CartComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

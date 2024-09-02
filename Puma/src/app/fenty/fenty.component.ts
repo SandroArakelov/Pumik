@@ -2,6 +2,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FentyService } from './fenty.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { forwardRef } from '@angular/core';
+import { ShippingService } from '../shipping/shipping.service';
 
 @Component({
   selector: 'app-fenty',
@@ -21,6 +22,7 @@ export class FentyComponent implements OnInit{
 
   constructor(
     private Fentyservice: FentyService,
+    private shippingServise: ShippingService,
     private route: ActivatedRoute,
     private router: Router
   ){}
@@ -37,5 +39,9 @@ export class FentyComponent implements OnInit{
     this.route.params.subscribe((params)=> {
       this.keyword = params ['filter']
     })
+  }
+
+  add(product: any){
+    this.shippingServise.AddShipping(product)
   }
 }

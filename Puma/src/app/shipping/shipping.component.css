@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.shipping_img{
+    width: 55%;
+}
+
 .shipping_title{
     font-size: 1.2rem;
 }
@@ -9,6 +13,7 @@
 .shipping_flex{
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
 
 ul{
@@ -38,7 +43,7 @@ ul{
 .shipping_btn_flex{
     display: flex;
     flex-wrap: wrap;
-    width: 20rem;
+    width: 100%;
     gap: 0.5rem;
 }
 
@@ -90,4 +95,55 @@ ul{
 
 .fit_hr{
     height: 25%;
+}
+
+.cart_btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    gap: 1rem;
+}
+
+.add_quantity{
+    display: flex;
+}
+
+.quantity{
+    width: 15%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: no-drop;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    
+}
+
+.cart_btn button{
+    height: 4rem;
+    width: 22rem;
+}
+
+.cart_btn span{
+    font-weight: 700;
+    font-size: 1.01rem
+}
+
+.Add_To_Cart{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Add_To_Wishlist{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
 }

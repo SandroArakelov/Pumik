@@ -9,10 +9,9 @@
                 <div class="shipping_title"><h2>{{products.title}}</h2></div>
                 <div class="shipping_price"><p>{{products.base_price | currency: "$"}}</p></div>
                 <div class="shipping_explore"> <button>EXPLORE THIS COLLECTION</button> </div>
-
                 <hr>
                 <div class="text_size"><p>Size</p></div>
-                <div class="shipping_btn_flex">
+                <div class="shipping_btn_flex" (click)="addToCart(products)">
                 <div class="shipping_sizes"><button>{{products.variants[0].size}}</button></div>
                 <div class="shipping_sizes"><button>{{products.variants[1].size}}</button></div>
                 <div class="shipping_sizes"><button>{{products.variants[2].size}}</button></div>
@@ -33,6 +32,13 @@
                         <p>SIZE GUIDE</p>
                     </div>
                     </div>
+                    <div class="add_quantity">
+                        <button class="quantity"><span>1</span> <img src="assets\down-arrow.png"></button>
+                    <div class="cart_btn">
+                        <button class="Add_To_Cart"  routerLink="/cart" (click)="addToCart(products)" ><span>ADD TO CART</span></button>
+                        <button class="Add_To_Wishlist"> <img src="assets\heart.png"> <span>ADD TO WISHLIST</span></button>
+                    </div>
+                </div>
                 </div>
             </div>
         </li>

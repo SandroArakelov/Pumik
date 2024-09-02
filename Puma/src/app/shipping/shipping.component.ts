@@ -9,6 +9,7 @@ import { ShippingService } from './shipping.service';
 export class ShippingComponent{
   MyShipping: any[] = []
   @Input() ShippingSizes: [] = [];
+  addInCart: boolean = false
   constructor(private shippingServ: ShippingService){}
 
   ngOnInit(){
@@ -17,10 +18,13 @@ export class ShippingComponent{
       if(this.shippingServ.retriveData('shipping').length > 0){
         this.MyShipping = this.shippingServ.retriveData('shipping')
         console.log('sneakers', this.MyShipping)
-       this.MyShipping = this.shippingServ.retriveData('shipping')
-        console.log(this.MyShipping)
       }
     })
   }
+
+  addToCart(product: any){
+    this.shippingServ.AddShipping(product)
+  }
+
 }
  

@@ -22,6 +22,13 @@ export class ShippingService {
     }
 }
 
+addcart(product: ShippingVal){
+  const currentitems = this.items.value;
+  this.items.next([...currentitems, product])
+  this.shipping.push(product)
+  localStorage.setItem('shipping', JSON.stringify(this.shipping))
+  }
+
   retriveData(key: string):any{
     const data = localStorage.getItem(key)
     return data ? JSON.parse(data) : []

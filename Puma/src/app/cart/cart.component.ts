@@ -8,6 +8,7 @@ import { ShippingService } from '../shipping/shipping.service';
 })
 export class CartComponent {
 MyCart: any[] = []
+see = false
 
 constructor(private ShippingServ: ShippingService){}
 
@@ -16,8 +17,17 @@ ngOnInit(){
     this.MyCart = Data
     if(this.ShippingServ.retriveData('shipping').length > 0){
       Data = this.ShippingServ.retriveData('shipping')
-      console.log("cart", Data)
+      console.log("shipping", Data)
     }
   })
 }
+
+remove(product: any){
+  const index = this.MyCart.findIndex(item => item.id = product.id);
+  if(index !== -1){
+    this.MyCart.splice(index, 1)
+    localStorage.setItem('shipping', JSON.stringify(this.MyCart))
+  }
+}
+
 }

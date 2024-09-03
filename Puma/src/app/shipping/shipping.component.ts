@@ -23,7 +23,7 @@ export class ShippingComponent{
   }
 
   addToCart(product: any){
-    this.shippingServ.AddShipping(product)
+    this.shippingServ.addcart(product)
   }
 
 }

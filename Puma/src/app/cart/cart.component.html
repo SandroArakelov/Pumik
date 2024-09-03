@@ -2,14 +2,38 @@
     <ul>
         <li *ngFor="let products of MyCart">
             <div class="cart_flex">
+
             <div class="products_img"> <img [src]="products.image" alt="products.image"></div>
-            <div class="cart_title"><h2>{{products.title}}</h2></div>
-            <div class="size_flex">
+
+            <div class="cart_text">
+                <div class="cart_title"><h2>{{products.title}}</h2></div>
+                <div class="cart_size"><p> <span>Size:</span> {{products.variants[0].size}}</p>
+                </div>
+
+                <div class="cart_inp"> 
+                    <select id="quantity" class="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+            </div>
+                <div class="cart_left">
                 <div class="cart_price"><h3>{{products.base_price | currency: "$"}}</h3></div>
-                <div class="cart_size"><p>{{products.variants[0].size}}</p></div>
+                <div class="cart_bin" (click)="remove(products)"> <img src="assets\recycle-bin.png" alt=""> </div>
             </div>
             </div>
-            
         </li>
     </ul>
 </div>
+
+<!-- <div class="see" *ngIf="see">
+    <h1>Cart is empty</h1>
+</div> -->

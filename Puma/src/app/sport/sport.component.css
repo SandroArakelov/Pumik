@@ -20,17 +20,15 @@
 .person_name{
     position: absolute;
     bottom: 0.2rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(44, 44, 44, 0.8));
     width: 21rem;
     height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .person_name_h{
     position: absolute;
     bottom: 0;
+    padding-left: 1rem;
     color: white;
 }
 
@@ -54,11 +52,14 @@
 
 .sort_pice{
     border: 1px gray solid;
-    width: 6rem;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-size: 0.9rem;
     font-weight: 700;
 }
 

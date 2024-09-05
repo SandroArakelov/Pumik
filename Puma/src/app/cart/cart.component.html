@@ -32,8 +32,32 @@
             </div>
         </li>
     </ul>
-</div>
 
-<!-- <div class="see" *ngIf="see">
-    <h1>Cart is empty</h1>
-</div> -->
+    <div class="deliver_list">
+        <div class="free_ship_ret">
+        <div class="free_shipping"> <img src="assets\delivery-truck.png"> <span>YOU'VE EARNED FREE SHIPPPING</span></div>
+        <div class="free_return"> <img src="assets\undo.png"> <span>FREE RETURNS ON ALL QUALIFYNG ORDERS</span></div>
+    </div>
+        <div class="subtotal">
+            <hr>
+            <div class="ajaragadziska"><span>SUBTOTAL</span> <span>{{total | currency: "$"}}</span></div>
+            <div class="ajaragadziska"><span>SHIPPING COSTS</span>  <span>FREE</span></div>
+            <div class="ajaragadziska"><span>ESTIEMATED SALES TAX</span> <span>_</span></div>
+            <hr>
+        </div>
+
+        <div class="Estimated_total">
+            <h3><span>ESTIMATED TOTAL</span> <span>{{total | currency: "$"}}</span></h3>
+        </div>
+
+        <div class="check_btns">
+            <div class="checkout"> <button><h3>CHECKOUT</h3></button> </div>
+            <div class="PayPall"> <button><img src="\assets\paypal.png"></button> </div>
+            <div class="GooglePay"> <button><img src="\assets\google-pay.png"></button> </div>
+        </div>
+
+        <div class="policy">
+            <p>By continuing, I confirm that I have read and accept the <span>Terms and Conditions.</span> and the <span>Privacy Policy.</span></p>
+        </div>
+    </div>
+</div>

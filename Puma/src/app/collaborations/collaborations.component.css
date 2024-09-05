@@ -54,7 +54,9 @@
 
 .sort_pice{
     border: 1px gray solid;
-    width: 6rem;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;

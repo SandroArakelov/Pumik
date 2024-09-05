@@ -8,6 +8,7 @@ import { BehaviorSubject } from 'rxjs';
 export class ShippingService {
 
   shipping: ShippingVal[] = [];
+  cart: ShippingVal[] = [];
 
   private items = new BehaviorSubject<any[]>(this.retriveData('shipping') || [])
   items$ = this.items.asObservable();
@@ -22,11 +23,11 @@ export class ShippingService {
     }
 }
 
-addcart(product: ShippingVal){
+addcart(products: ShippingVal){
   const currentitems = this.items.value;
-  this.items.next([...currentitems, product])
-  this.shipping.push(product)
-  localStorage.setItem('shipping', JSON.stringify(this.shipping))
+  this.items.next([...currentitems, products])
+  this.cart.push(products)
+  localStorage.setItem('shipping', JSON.stringify(this.cart))
   }
 
   retriveData(key: string):any{

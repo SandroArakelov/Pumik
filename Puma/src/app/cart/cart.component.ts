@@ -15,7 +15,7 @@ constructor(private ShippingServ: ShippingService){}
 ngOnInit(){
   this.ShippingServ.items$.subscribe(Data => {
     this.MyCart = Data
-    if(this.ShippingServ.retriveData('shipping').length > 0){
+    if(this.ShippingServ.retriveData('shipping').length < 0){
       Data = this.ShippingServ.retriveData('shipping')
       console.log("shipping", Data)
     }

@@ -22,8 +22,8 @@ export class ShippingComponent{
     })
   }
 
-  addToCart(product: any){
-    this.shippingServ.addcart(product)
+  addToCart(products: any){
+    this.shippingServ.addcart(products)
   }
 
 }

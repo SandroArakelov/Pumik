@@ -1,0 +1,75 @@
+<div class="colab_persons">
+    <div class="person_img">
+        <img src="assets\384904_08_sv01.jpg" alt="">
+        <div class="person_name">
+            <div class="person_name_h">
+            <h3>KID'S BASKETBALL</h3>
+        </div>
+        </div>
+    </div>
+
+    <div class="person_img">
+        <img src="assets\680294_20_mod01.jpg" alt="">
+        <div class="person_name">
+            <div class="person_name_h">
+            <h3>KID'S SOCCER</h3>
+        </div>
+        </div>
+    </div>
+
+    <div class="person_img">
+        <img src="assets\927604_01.jpg" alt="">
+        <div class="person_name">
+            <div class="person_name_h">
+            <h3>KID'S RUNNING</h3>
+        </div>
+        </div>
+    </div>
+
+    <div class="person_img">
+        <img src="assets\622257_01_mod03.jpg" alt="">
+        <div class="person_name">
+            <div class="person_name_h">
+            <h3>ALL KID'S SPORTS</h3>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="all_colab_items">
+    <h1>Shop All Collaborations</h1>
+</div>
+
+<div class="sort_by">
+    <hr>
+    <div class="sort">
+        <div class="sort_img">
+            <img src="assets\tool.png" alt="">
+        </div>
+        <div class="sort_pice"><p>Gender</p><img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Category</p><img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Style</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Price</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Size</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Color</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Sport</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Team</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_pice"><p>Cushioning Level</p> <img src="assets\down-arrow.png"> </div>
+        <div class="sort_jujul"><b>SORT BY</b> <img src="assets\down-arrow.png"> </div> 
+    </div>
+    <hr>
+</div>
+
+<div class="sneaker_list">
+    <ul>
+        <li *ngFor="let products of ColabProducts">
+            <div class="sneakers" routerLink="/shipping">
+                <div class="sneakers_img" (click)="AddToCart(products)"> <img [src]="products.image" alt="products.image"> </div>
+                <div class="flex_price">
+                <div class="sneakers_title"> <h4>{{products.title}}</h4></div>
+                <div class="sneakers_price"> <p>{{products.base_price | currency: "$"}}</p> </div>
+            </div>
+            </div>
+        </li>
+    </ul>
+</div>

@@ -33,9 +33,21 @@ export class FentyService {
         map(response => response)
       )
     }
-
+    //3//
     ApiUrl_3 = "https://the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com/search?query=Adidas%20Forum/15"
     GetProductsUrl_3(): Observable<any> {
+      const headers = new HttpHeaders()
+      .set('x-rapidapi-key', this.ApiKey)
+      .set('x-rapidapi-host', 'the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com')
+
+      return this.http.get(this.ApiUrl_3, {headers}).pipe(
+        map(response => response)
+      )
+    }
+
+    //4//
+    ApiUrl_4 = "https://the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com/search?query=Adidas%20Forum/20"
+    GetProductsUrl_4(): Observable<any> {
       const headers = new HttpHeaders()
       .set('x-rapidapi-key', this.ApiKey)
       .set('x-rapidapi-host', 'the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com')

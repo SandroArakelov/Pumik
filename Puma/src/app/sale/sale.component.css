@@ -1,0 +1,115 @@
+.colab_persons{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    row-gap: 2.5rem;
+}
+
+.person_img{
+    position: relative;
+    cursor: pointer;
+    padding-top: 3rem;
+}
+
+.person_img img{
+    width: 21rem;
+}
+
+.person_name{
+    position: absolute;
+    bottom: 0.2rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(44, 44, 44, 0.8));
+    width: 21rem;
+    height: 50%;
+}
+
+.person_name_h{
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+    color: white;
+}
+
+.sort{
+    display: flex;
+    gap: 1rem;
+    height: 2.5rem;
+    margin: 1rem;
+    background-color: white;
+}
+
+.sort_img, .sort_img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    cursor: pointer;
+    width: 1.3rem;
+    padding-right: 2rem;
+}
+
+.sort_pice{
+    border: 1px gray solid;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.sort_jujul{
+    border: 1px gray solid;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.sort_pice:hover{
+    border: 1px black solid;
+}
+
+/*  */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.sneakers{
+    width: 20rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.sneakers_img{
+    background-color: black;
+    height: 14rem;
+}
+
+.sneakers_img img{
+    width: 20rem;
+    height: 14rem;
+    opacity: 0.98;
+}
+
+.sneakers_title{
+    width: 15rem;
+}
+
+.flex_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*  */

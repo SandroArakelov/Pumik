@@ -18,6 +18,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { CollaborationsComponent } from './collaborations/collaborations.component';
 import { SportComponent } from './sport/sport.component';
 import { CartComponent } from './cart/cart.component';
+import { SaleComponent } from './sale/sale.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { CartComponent } from './cart/cart.component';
     ShippingComponent,
     CollaborationsComponent,
     SportComponent,
-    CartComponent
+    CartComponent,
+    SaleComponent
   ],
   imports: [
     BrowserModule,

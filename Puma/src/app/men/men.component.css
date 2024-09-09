@@ -71,7 +71,7 @@
   }
   
   .carousel-item {
-    min-width: calc(100% / 4); /* Adjust based on the number of visible slides */
+    min-width: calc(100% / 4);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -27,7 +27,7 @@
             </div>
                 <div class="cart_left">
                 <div class="cart_price"><h3>{{products.base_price | currency: "$"}}</h3></div>
-                <div class="cart_bin" (click)="remove(products)"> <img src="assets\recycle-bin.png" alt=""> </div>
+                <div class="cart_bin" (click)="remove(products)"> <img src="assets\recycle-bin.png" > </div>
             </div>
             </div>
         </li>
@@ -60,4 +60,49 @@
             <p>By continuing, I confirm that I have read and accept the <span>Terms and Conditions.</span> and the <span>Privacy Policy.</span></p>
         </div>
     </div>
+</div>
+
+<div class="like"> <h2>YOU MAY ALSO LIKE</h2> </div>
+
+<div class="carousel-container">
+    <button class="carousel-control prev" (click)="prev()">‹</button>
+    <div class="carousel" [style.transform]="'translateX(' + (-currentSlide * 100 / visibleSlides) + '%)'">
+      <div class="carousel-item" *ngFor="let item of item">
+        <div class="carousel-content">
+          <img [src]="item.src" alt="Carousel image">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control next" (click)="next()">›</button>
+  </div>
+
+<div class="support">
+    <div class="sup_div">
+        <img src="\assets\lock.png" class="sup_img">
+        <h3>secure payments</h3>
+        <p>ssl encryption on all transactions</p>
+    </div>
+    <div class="sup_div">
+        <img src="\assets\delivery.png" class="sup_img">
+        <h3>free & fast returns</h3>
+        <p>free return on all qualifying orders</p>
+    </div>
+    <div class="sup_div">
+        <img src="\assets\comment.png" class="sup_img">
+        <h3>Active Support</h3>
+        <p>Get in touch if you have a problem</p>
+    </div>
+</div>
+
+<div class="partners"> <p>OUR TRUSTED PAYMENT PARTNERS</p> </div>
+<div class="pay_partners">
+    <img src="\assets\visa.png">
+    <img src="\assets\card.png">
+    <img src="\assets\american-express.png">
+    <img src="\assets\discover.png">
+    <img src="\assets\paypal.png">
+    <img src="\assets\afterpay-circles-small-image-removebg-preview.png">
+    <img src="\assets\symbols.png">
+    <img src="\assets\apple-pay.png">
+    <img src="\assets\google-pay.png">
 </div>

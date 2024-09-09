@@ -11,6 +11,7 @@ import { CollaborationsComponent } from './collaborations/collaborations.compone
 import { ShippingComponent } from './shipping/shipping.component';
 import { SportComponent } from './sport/sport.component';
 import { CartComponent } from './cart/cart.component';
+import { SaleComponent } from './sale/sale.component';
 
 
 const routes: Routes = [
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: 'shipping', component: ShippingComponent},
   {path: 'sport', component: SportComponent},
   {path: 'cart', component: CartComponent},
+  {path: 'sale', component: SaleComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

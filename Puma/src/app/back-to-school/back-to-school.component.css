@@ -144,14 +144,15 @@
     justify-content: space-between;
 }
 
-.best_foot_container a{
+.best_foot_container button{
     background-color: #1d1d1d;
     text-decoration: none;
     font-weight: bold;
     color: white;
+    border: none;
 }
 
-.best_foot_container a:hover{
+.best_foot_container button:hover{
     background-color: #333;
 }
 
@@ -171,15 +172,16 @@
     justify-content: space-between;
 }
 
-.school_deals_photos a{
+.school_deals_photos button{
     background-color: #1d1d1d;
     text-decoration: none;
-    width: 50%;
+    width: 30%;
     font-weight: bold;
     color: white;
+    border: none;
 }
 
-.school_deals_photos a:hover{
+.school_deals_photos button:hover{
     background-color: #333;
 }
 

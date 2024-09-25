@@ -12,6 +12,7 @@ export class CartComponent implements OnInit{
 MyCart: any[] = []
 total: number = 0;
 tax: number = 0;
+soon = false
 constructor(private ShippingServ: ShippingService){}
 
 ngOnInit(){
@@ -25,6 +26,9 @@ ngOnInit(){
       })
     }
   })
+  if(this.MyCart.length == 0){
+    this.soon = !this.soon
+  }
 }
 
 sum(){
@@ -39,6 +43,14 @@ remove(product: any){
     localStorage.setItem('shipping', JSON.stringify(this.MyCart))
   }
   this.total -= product.base_price
+}
+
+removeAll(){
+  if(this.MyCart.length > 0){
+    localStorage.removeItem('shipping')
+    localStorage.clear()
+    location.reload()
+  }
 }
 
 item = [

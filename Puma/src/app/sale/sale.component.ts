@@ -25,8 +25,8 @@ export class SaleComponent{
   ){}
 
   ngOnInit(){
-    this.Fentyservice.GetProductsUrl_4().subscribe(data => {
-      this.ColabProducts = data.hits
+    this.Fentyservice.GetProductsUrl_1().subscribe(data => {
+      this.ColabProducts = data
     },
     error => {
       console.error('Error', error);

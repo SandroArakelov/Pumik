@@ -28,7 +28,7 @@ export class SportComponent implements OnInit {
   ){}
 
   ngOnInit(){
-    this.Fentyservice.GetProductsUrl_3().subscribe(data => {
+    this.Fentyservice.GetProductsUrl_1().subscribe(data => {
       this.ColabProducts = data.hits
     },
     error => {

@@ -101,8 +101,8 @@
             <div class="sneakers" routerLink="/shipping">
                 <div class="sneakers_img" (click)="AddSize(products)"> <img [src]="products.image" alt="products.image"> </div>
                 <div class="flex_price">
-                <div class="sneakers_title"> <h4>{{products.title}}</h4></div>
-                <div class="sneakers_price"> <p>{{products.base_price | currency: "$"}}</p> </div>
+                <div class="sneakers_title"> <h4>{{products.name}}</h4></div>
+                <div class="sneakers_price"> <p>{{products.price | currency: "$"}}</p> </div>
             </div>
             </div>
         </li>

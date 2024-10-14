@@ -8,7 +8,7 @@ ul{
 }
 
 .sneakers{
-    width: 20rem;
+    width: 15rem;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
 }
@@ -19,7 +19,7 @@ ul{
 }
 
 .sneakers_img img{
-    width: 20rem;
+    width: 15rem;
     height: 14rem;
     opacity: 0.98;
 }

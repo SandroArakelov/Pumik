@@ -35,10 +35,10 @@
     <ul>
         <li *ngFor="let products of sneakers">
             <div class="sneakers" routerLink="/shipping" (click)="add(products)">
-                <div class="sneakers_img"> <img [src]="products.image_url" alt="products.iage"> </div>
+                <div class="sneakers_img"> <img [src]="products.image" alt="products.image"> </div>
                 <div class="flex_price">
-                <div class="sneakers_title"> <h4>{{products.title}}</h4></div>
-                <div class="sneakers_price"> <p>{{products.base_price | currency: "$"}}</p> </div>
+                <div class="sneakers_title"> <h4>{{products.name}}</h4></div>
+                <div class="sneakers_price"> <p>{{products.price | currency: "$"}}</p> </div>
             </div>
             <div class="best_seller"> <button><span>BEST SELLER</span></button> </div>
             </div>

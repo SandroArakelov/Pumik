@@ -28,8 +28,8 @@ export class CollaborationsComponent implements OnInit{
   ){}
 
   ngOnInit(){
-    this.Fentyservice.GetProductsUrl_2().subscribe(data => {
-      this.ColabProducts = data.hits
+    this.Fentyservice.GetProductsUrl_1().subscribe(data => {
+      this.ColabProducts = data
     },
     error => {
       console.error('Error', error);

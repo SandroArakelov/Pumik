@@ -3,6 +3,7 @@
         <li *ngFor="let products of MyShipping">
             <div class="shipping">
                 <div class="shipping_img"> <img [src]="products.image" alt=""> </div>
+<<<<<<< Updated upstream
 
                 <div class="shipping_flex">
                 <!-- <div class="shipping-brand"><h1>{{products.brand}}</h1></div> -->
@@ -40,6 +41,14 @@
                     </div>
                 </div>
                 </div>
+=======
+                <div class="shipping-brand"><h1>{{products.brand}}</h1></div>
+                <div class="shipping_title"><h2>{{products.title}}</h2></div>
+                <div class="shipping_price"><p>{{products.base_price | currency: "$"}}</p></div>
+                <div class="size" *ngFor="let variant of ShippingSizes">
+                <div class="shipping_sizes"><button>{{products.variants}}</button></div>
+            </div>
+>>>>>>> Stashed changes
             </div>
         </li>
     </ul>

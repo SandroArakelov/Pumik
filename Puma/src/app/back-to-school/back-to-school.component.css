@@ -214,16 +214,28 @@
     text-align: center;
   }
 
-  .best_dresses img{
-    width: 100%;
-    height: 500px;
+  .sale{
+    font-size: 0.7rem;
+    height: 5rem;
   }
 
-  .dressed_text{
+  .best_dresses img{
+    width: 100%;
+    height: 200px;
+    display: none;
+  }
+
+  .dressed_text{  
     top: 30%;
     left: 25%;
     width: 50%;
     text-align: center;
+    display: none;
+  }
+
+  .carousel-container{
+    width: 20vw;
+    width: 100%;
   }
 
   .dressed_buttons{
@@ -238,11 +250,13 @@
 
   .best_foot_container{
     flex-direction: column;
+    row-gap: 1rem;
   }
 
   .school_deals_photos{
     flex-direction: column;
     width: 100%;
+    row-gap: 1rem;
   }
 
   .school_deals_photos img{
@@ -267,6 +281,10 @@
 
   .class_over{
     display: 0;
+  }
+
+  .last{
+    display: none;
   }
 }
 

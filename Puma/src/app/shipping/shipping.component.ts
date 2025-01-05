@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ShippingService } from './shipping.service';
+import { style } from '@angular/animations';
 
 @Component({
   selector: 'app-shipping',
@@ -10,6 +11,12 @@ export class ShippingComponent{
   MyShipping: any[] = []
   @Input() ShippingSizes: [] = [];
   addInCart: boolean = false
+  // value: number = 1;
+  // visible = {
+  //   background-color: black;
+  //   color: white;
+  // };
+
   constructor(private shippingServ: ShippingService){}
 
   ngOnInit(){
@@ -25,6 +32,16 @@ export class ShippingComponent{
   addToCart(products: any){
     this.shippingServ.addcart(products)
   }
+
+  //dublemoney(){
+    // if(this.value = this.value){
+    //   this.value * 
+    // }
+  //}
+
+  // onclick(){
+  //   this.visible = !this.visible
+  // }
 
 }
  

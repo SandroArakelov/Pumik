@@ -3,7 +3,13 @@
 }
 
 .shipping_img{
-    width: 55%;
+    width: 100%;
+    width: 55vw;
+}
+
+.shipping_img img{
+    width: 50vw;
+    height: 120vh;
 }
 
 .shipping_title{
@@ -106,6 +112,12 @@ ul{
 
 .add_quantity{
     display: flex;
+    flex-direction: column;
+}
+
+#select{
+    width: 4vw;
+    height: 5vh;
 }
 
 .quantity{

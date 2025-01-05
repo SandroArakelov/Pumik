@@ -3,7 +3,6 @@
         <li *ngFor="let products of MyShipping">
             <div class="shipping">
                 <div class="shipping_img"> <img [src]="products.image" alt=""> </div>
-<<<<<<< Updated upstream
 
                 <div class="shipping_flex">
                 <!-- <div class="shipping-brand"><h1>{{products.brand}}</h1></div> -->
@@ -13,15 +12,15 @@
                 <hr>
                 <div class="text_size"><p>Size</p></div>
                 <div class="shipping_btn_flex">
-                <div class="shipping_sizes"><button>{{products.variants[0].size}}</button></div>
-                <div class="shipping_sizes"><button>{{products.variants[1].size}}</button></div>
-                <div class="shipping_sizes"><button>{{products.variants[2].size}}</button></div>
-                <div class="shipping_sizes"><button>{{products.variants[3].size}}</button></div>
-                <div class="shipping_sizes"><button>{{products.variants[4].size}}</button></div>
-                <div class="shipping_sizes"><button>{{products.variants[5].size}}</button></div>
-                <div class="shipping_sizes"><button>{{products.variants[6].size}}</button></div>
-                <div class="shipping_sizes"><button>{{products.variants[7].size}}</button></div>
-                <div class="shipping_sizes"><button>{{products.variants[8].size}}</button></div>
+                <div class="shipping_sizes"><button><h2>1</h2></button></div>
+                <div class="shipping_sizes"><button><h2>2</h2></button></div>
+                <div class="shipping_sizes"><button><h2>3</h2></button></div>
+                <div class="shipping_sizes"><button><h2>4</h2></button></div>
+                <div class="shipping_sizes"><button><h2>5</h2></button></div>
+                <div class="shipping_sizes"><button><h2>6</h2></button></div>
+                <div class="shipping_sizes"><button><h2>7</h2></button></div>
+                <div class="shipping_sizes"><button><h2>8</h2></button></div>
+                <div class="shipping_sizes"><button><h2>9</h2></button></div>
                     </div>
                     <div class="fit_finder">
                         <img src="assets\fit-finder-PDP-black.svg" alt="">
@@ -34,21 +33,27 @@
                     </div>
                     </div>
                     <div class="add_quantity">
-                        <button class="quantity"><span>1</span> <img src="assets\down-arrow.png"></button>
-                    <div class="cart_btn">
-                        <button class="Add_To_Cart"  routerLink="/cart" (click)="addToCart(products)" ><span>ADD TO CART</span></button>
-                        <button class="Add_To_Wishlist"> <img src="assets\heart.png"> <span>ADD TO WISHLIST</span></button>
-                    </div>
+                    <label for="quantity">Quantity</label>
+                    <select name="quantity" id="select">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
                 </div>
                 </div>
-=======
                 <div class="shipping-brand"><h1>{{products.brand}}</h1></div>
                 <div class="shipping_title"><h2>{{products.title}}</h2></div>
                 <div class="shipping_price"><p>{{products.base_price | currency: "$"}}</p></div>
                 <div class="size" *ngFor="let variant of ShippingSizes">
-                <div class="shipping_sizes"><button>{{products.variants}}</button></div>
+                <!-- <div class="shipping_sizes"><button>{{products.variants}}</button></div> -->
             </div>
->>>>>>> Stashed changes
             </div>
         </li>
     </ul>

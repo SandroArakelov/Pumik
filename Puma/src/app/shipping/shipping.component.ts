@@ -19,7 +19,6 @@ export class ShippingComponent{
         this.MyShipping = this.shippingServ.retriveData('shipping')
         console.log('sneakers', this.MyShipping)
       }
-
     })
   }
 

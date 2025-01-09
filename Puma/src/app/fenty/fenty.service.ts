@@ -6,33 +6,36 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class FentyService {
+    // ApiKey = "d92f9f1d23msh9b2df169d0bb826p11b38djsnef384c25eb46"
+    // ApiUrl_1 = "https://shoes-collections.p.rapidapi.com/shoes"
+
     ApiKey = "d92f9f1d23msh9b2df169d0bb826p11b38djsnef384c25eb46"
-    ApiUrl_1 = "https://shoes-collections.p.rapidapi.com/shoes"
 
 
     constructor(public http: HttpClient){}
-    //1//
-    GetProductsUrl_1(): Observable<any> {
+    // //1//
+    // GetProductsUrl_1(): Observable<any> {
+    //   const headers = new HttpHeaders()
+    //   .set('x-rapidapi-key', this.ApiKey)
+    //   .set('x-rapidapi-host', 'shoes-collections.p.rapidapi.com')
+
+    //   return this.http.get(this.ApiUrl_1, {headers}).pipe(
+    //     map(response => response)
+    //   )
+    // }
+
+    //2//
+    ApiUrl_2 = "https://sneakers-releases-calendar.p.rapidapi.com/search/nike?sort_by=relevance&sort_order=descending&num_results_per_page=24&page=1"
+    GetProductsUrl_2(): Observable<any> {
       const headers = new HttpHeaders()
       .set('x-rapidapi-key', this.ApiKey)
-      .set('x-rapidapi-host', 'shoes-collections.p.rapidapi.com')
+      .set('x-rapidapi-host', 'sneakers-releases-calendar.p.rapidapi.com')
 
-      return this.http.get(this.ApiUrl_1, {headers}).pipe(
+      return this.http.get(this.ApiUrl_2, {headers}).pipe(
         map(response => response)
       )
     }
 
-    // //2//
-    // ApiUrl_2 = "https://the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com/search?query=Adidas%20Forum/10"
-    // GetProductsUrl_2(): Observable<any> {
-    //   const headers = new HttpHeaders()
-    //   .set('x-rapidapi-key', this.ApiKey)
-    //   .set('x-rapidapi-host', 'the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com')
-
-    //   return this.http.get(this.ApiUrl_2, {headers}).pipe(
-    //     map(response => response)
-    //   )
-    // }
     // //3//
     // ApiUrl_3 = "https://the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com/search?query=Adidas%20Forum/15"
     // GetProductsUrl_3(): Observable<any> {

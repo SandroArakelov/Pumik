@@ -28,8 +28,8 @@ export class FentyComponent implements OnInit{
   ){}
 
   ngOnInit(){
-    this.Fentyservice.GetProductsUrl_1().subscribe(data => {
-      this.sneakers = data
+    this.Fentyservice.GetProductsUrl_2().subscribe(data => {
+      this.sneakers = data.results
       console.log('sneakers', this.sneakers)
     },
     error => {

@@ -25,11 +25,11 @@ export class FentyService {
     // }
 
     //2//
-    ApiUrl_2 = "https://sneakers-releases-calendar.p.rapidapi.com/search/nike?sort_by=relevance&sort_order=descending&num_results_per_page=24&page=1"
+    ApiUrl_2 = "https://stadium-goods-api.p.rapidapi.com/products?page=1"
     GetProductsUrl_2(): Observable<any> {
       const headers = new HttpHeaders()
       .set('x-rapidapi-key', this.ApiKey)
-      .set('x-rapidapi-host', 'sneakers-releases-calendar.p.rapidapi.com')
+      .set('x-rapidapi-host', 'stadium-goods-api.p.rapidapi.com')
 
       return this.http.get(this.ApiUrl_2, {headers}).pipe(
         map(response => response)

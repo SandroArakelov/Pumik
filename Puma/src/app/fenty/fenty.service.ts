@@ -9,7 +9,7 @@ export class FentyService {
     // ApiKey = "d92f9f1d23msh9b2df169d0bb826p11b38djsnef384c25eb46"
     // ApiUrl_1 = "https://shoes-collections.p.rapidapi.com/shoes"
 
-    ApiKey = "d92f9f1d23msh9b2df169d0bb826p11b38djsnef384c25eb46"
+    ApiKey = "f-9104e522e0b0154580e303d940bb462e"
 
 
     constructor(public http: HttpClient){}
@@ -25,11 +25,12 @@ export class FentyService {
     // }
 
     //2//
-    ApiUrl_2 = "https://stadium-goods-api.p.rapidapi.com/products?page=1"
+    ApiUrl_2 = "https://api.sneakersapi.dev/api/v3/stockx/products"
     GetProductsUrl_2(): Observable<any> {
       const headers = new HttpHeaders()
       .set('x-rapidapi-key', this.ApiKey)
-      .set('x-rapidapi-host', 'stadium-goods-api.p.rapidapi.com')
+      .set('x-rapidapi-host', 'api.sneakersapi.dev')
+      
 
       return this.http.get(this.ApiUrl_2, {headers}).pipe(
         map(response => response)
@@ -37,7 +38,7 @@ export class FentyService {
     }
 
     // //3//
-    // ApiUrl_3 = "https://the-sneaker-database-api-your-ultimate-sneaker-encyclopedia.p.rapidapi.com/search?query=Adidas%20Forum/15"
+    // ApiUrl_3 = "https://stadium-goods-api.p.rapidapi.com/products?page=1"
     // GetProductsUrl_3(): Observable<any> {
     //   const headers = new HttpHeaders()
     //   .set('x-rapidapi-key', this.ApiKey)

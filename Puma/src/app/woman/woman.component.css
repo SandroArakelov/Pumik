@@ -194,6 +194,11 @@
     gap: 1rem;
   }
 
+  .fit_txt{
+  padding-left: 5%;
+  
+  }
+
 @media screen and (min-width:0px) and (max-width:576px){
 
   .all{

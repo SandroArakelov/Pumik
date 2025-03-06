@@ -193,19 +193,28 @@
   width: 100%;
 }
 
-.class_over{
+.last_text{
     position: absolute;
-    top: 485%;
-    left: 75%;
+    top: 500%;
+    left: 80%;
     text-align: end;
     font-weight: bold;
 }
 
-.class_over a{
+.last_text a{
     text-decoration: none;
     color: white;
     background-color: #1d1d1d;
     width: 50%;
+} 
+
+.last_text button{
+    background-color: #1d1d1d;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 @media screen and (min-width:0px) and (max-width:576px) {

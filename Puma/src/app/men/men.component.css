@@ -27,7 +27,7 @@
 
 .build{
     position: absolute;
-    left: 1400px;
+    left: 85rem;
     top: 22rem;
     text-align: end;
 }
@@ -200,12 +200,15 @@
 
   .build{
     top: 200px;
+    left: 54%;
     font-size: smaller;
     text-align: center;
+    margin: auto;
   }
 
   .build button{
     height: 35px;
+    width: 140px;
   }
 
   .My_wardrobe_h1 h1{
@@ -213,7 +216,7 @@
   }
 
   .My_wardrobe_p{
-    width: 150px;
+    width: 165px;
     margin-top: 50px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -228,6 +231,10 @@
   .carousel-container{
     margin: 0;
     width: 100%;
+  }
+
+  .perfor_head{
+    font-size: small;
   }
 
   .nigger{
@@ -327,14 +334,10 @@
   }
 
   .build{
-    top: 28%;
-    left: 20%;
+    top: 250px;
+    left: 50%;
     font-size: smaller;
     text-align: center;
-  }
-
-  .build button{
-    height: 5%;
   }
 
   .My_wardrobe_p{

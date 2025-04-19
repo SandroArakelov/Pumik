@@ -203,6 +203,28 @@
     text-align: center;
   }
 
+  .build_flex{
+    position: absolute;
+    top: 200px;
+    padding-left: 10px;
+  }
+
+  .kids_img img{
+    width: 100%;
+    height: 10rem;
+  }
+
+  .build_kids_wardrobe_h1
+  {
+    font-size: 0.6rem;
+  }
+  .build_kids_wardrobe_p{
+    font-size: 0.8rem;
+  }
+  .build_kids_wardeobe_btn button{
+    width: 130px;
+  }
+
   .by_size_list img{
     width: 20rem;
   }
@@ -255,6 +277,25 @@
 @media screen and (min-width:768px) and (max-width:992px) {
   .off{
     text-align: center;
+  }
+
+  .build_flex{
+    position: absolute;
+    top: 250px;
+    padding-left: 10px;
+  }
+
+  .kids_img img{
+    width: 100%;
+    height: 16rem;
+  }
+
+  .build_kids_wardrobe_h1
+  {
+    font-size: 0.9rem;
+  }
+  .build_kids_wardrobe_p{
+    font-size: 0.99rem
   }
 
   .by_size_list img{

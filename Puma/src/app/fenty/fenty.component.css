@@ -135,6 +135,20 @@ ul{
     .sort{
         flex-direction: column;
     }
+
+    .fenty_txt{
+        padding: 10px;
+        top: 0;
+    }
+
+    .fenty_h{
+        width: 150px;
+        font-size: 0.6rem;
+    }
+
+    .fenty_p p{
+        font-size: 0.99rem;
+    }
 }
       
 @media screen and (min-width:576px) and (max-width:768px) {

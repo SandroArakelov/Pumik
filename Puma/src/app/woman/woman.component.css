@@ -195,25 +195,49 @@
   }
 
   .fit_txt{
-  padding-left: 5%;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 @media screen and (min-width:0px) and (max-width:576px){
 
   .all{
-    top: 27%;
+    padding-left: 10px;
+    top: 225px;
   }
 
   .your_wardrobe_h1 h1{
-    font-size: smaller;
+    font-size: 0.7rem;
     line-height: 5%;
   }
 
   .your_wardrobe_p p{
-    font-size: smaller;
+    font-size: 1rem;
     line-height: 5%;
+  }
 
+  .your_wardrobe_btn button{
+    width: 120px;
+    font-size: 0.7rem;
+  }
+
+  .per_txt h1{
+    width: 82%;
+  }
+  .per_txt{
+    font-size: medium;
+  }
+
+  .fit_txt h2{
+    width: 82%;
+  }
+  .fit_txt{
+    padding: 0;
+    font-size: medium;
+  }
+  .arrival{
+    padding-left: 10px;
   }
 
   .category_imgs{
@@ -299,20 +323,23 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
   .all{
-    top: 27%;
+    top: 20%;
   }
 
   .your_wardrobe_h1 h1{
-    font-size: medium;
+    font-size: xx-large;
   }
 
   .your_wardrobe_p p{
-    font-size: medium;
-
+    font-size: x-large;
   }
 
   .category_imgs{
     flex-wrap: wrap;
+  }
+
+  .fit_txt h2{
+    padding-left: 80px;
   }
 
   .category_imgs img{
@@ -347,16 +374,15 @@
 @media screen and (min-width:992px) and (max-width:1200px) {
 
   .all{
-    top: 27%;
+    top: 20%;
   }
 
   .your_wardrobe_h1 h1{
-    font-size: medium;
+    font-size: xx-large;
   }
 
   .your_wardrobe_p p{
-    font-size: medium;
-
+    font-size: x-large;
   }
 
   .category_imgs{

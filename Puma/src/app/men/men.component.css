@@ -27,7 +27,7 @@
 
 .build{
     position: absolute;
-    left: 65%;
+    left: 1400px;
     top: 22rem;
     text-align: end;
 }
@@ -199,17 +199,13 @@
   }
 
   .build{
-    top: 28%;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    top: 200px;
     font-size: smaller;
     text-align: center;
   }
 
   .build button{
-    height: 5%;
+    height: 35px;
   }
 
   .My_wardrobe_h1 h1{
@@ -217,15 +213,23 @@
   }
 
   .My_wardrobe_p{
-    height: 50%;
+    width: 150px;
+    margin-top: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: medium;
+    margin: 0;
   }
 
-  .My_wardrobe_p p{
-    line-height: 80%;
+  .My_wardrobe_btn span{
+    font-size: 0.8rem;
   }
 
-  
-  
+  .carousel-container{
+    margin: 0;
+    width: 100%;
+  }
+
   .nigger{
     flex-direction: column;
   }
@@ -257,8 +261,8 @@
   }
 
   .build{
-    top: 28%;
-    left: 20%;
+    top: 230px;
+    left: 350px;
     font-size: smaller;
     text-align: center;
   }
@@ -266,9 +270,26 @@
   .build button{
     height: 5%;
   }
+  .My_wardrobe_h1{
+    margin: 0;
+  }
 
+  .My_wardrobe_h1{
+    font-size: small;
+  }
   .My_wardrobe_p{
-    height: 50%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: medium;
+    margin: 0;
+  }
+  .My_wardrobe_btn{
+    height: 800px;
+  }
+
+  .carousel-container{
+    margin: 0;
+    width: 100%;
   }
 
   .My_wardrobe_p p{
